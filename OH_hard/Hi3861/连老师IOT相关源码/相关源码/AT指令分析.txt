@@ -1,0 +1,13 @@
+
+AT初始化
+  app_main
+    //AT初始化
+    hi_at_init
+
+    //AT指令注册
+    hi_at_sys_cmd_register
+      hi_at_general_cmd_register
+        g_at_general_func_tbl
+    
+    
+  

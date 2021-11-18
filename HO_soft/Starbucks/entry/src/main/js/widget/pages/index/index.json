@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "Title",
+    "detail": "Text",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.example.starbucks",
+      "abilityName": "com.example.starbucks.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "string": [
+    {
+      "name": "tall_cup",
+      "value": "Tall"
+    },
+    {
+      "name": "grande_cup",
+      "value": "Grande"
+    },
+    {
+      "name": "venti_cup",
+      "value": "Venti"
+    },
+
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "ETS_Empty Ability"
+    },
+    {
+      "name": "widget_ability_description",
+      "value": "This is a WidgetAbility"
+    }
+  ]
+}
