@@ -1,0 +1,9 @@
+
+t
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÓÔŒ€8Ò‚×«Ó/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÓÔŒ€8ô‚×«Ó/
+Q
+java:S1066Y"/Merge this if statement with the enclosing one.(±ù¾Ÿþÿÿÿÿ8”…×«Ó/
+j
+java:S3824Y"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(±ù¾Ÿþÿÿÿÿ8Ž‡×«Ó/
