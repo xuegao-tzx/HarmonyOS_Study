@@ -5,13 +5,13 @@ apply plugin: 'com.huawei.ohos.app'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('/Users/mac/.ohos/config/auto_debug_ace101_2850086000439751461.p12')
-            storePassword '00000018C611ACA1F0E88E2F801ACA986C833A9D51FF659491056889F9F96CB447E9F77DD7B949D9'
+            storeFile file('C:\\Users\\honor\\.ohos\\config\\auto_debug_ace1011_56657123.p12')
+            storePassword '0000001876058C4E72529C2798B48086C828E19609BF6301A3A340F84EFCB7586AEECA727E5737B3'
             keyAlias = 'debugKey'
-            keyPassword '000000187CE5F2461F147F2408C5C8D27AE7A4AE84FCFE8D828CB3E57416E6DB863CBDAA10DD9BAD'
+            keyPassword '00000018515BEC98C6FDFCF307D43C8DB33F66BF5A5C449A0813C1F432D6B785E85E5024F774A123'
             signAlg = 'SHA256withECDSA'
-            profile file('/Users/mac/.ohos/config/auto_debug_ace101_2850086000439751461.p7b')
-            certpath file('/Users/mac/.ohos/config/auto_debug_ace101_2850086000439751461.cer')
+            profile file('C:\\Users\\honor\\.ohos\\config\\auto_debug_ace1011_56657123.p7b')
+            certpath file('C:\\Users\\honor\\.ohos\\config\\auto_debug_ace1011_56657123.cer')
         }
     }
     compileSdkVersion 7
