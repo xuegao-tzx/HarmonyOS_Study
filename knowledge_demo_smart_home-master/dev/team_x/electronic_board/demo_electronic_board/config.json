@@ -1,0 +1,47 @@
+{
+  "app": {
+    "bundleName": "com.huawei.electrboard",
+    "vendor": "huawei",
+    "version": {
+      "code": 2,
+      "name": "2"
+      },
+      "apiVersion": {
+        "compatible": 3,
+        "target": 4
+      }
+    },
+    "deviceConfig": {
+        "default": {
+        }
+    },
+  "module": {
+    "package": "com.huawei.electrboard",
+    "name": ".MyHarmonyAbilityPackage",
+    "deviceType": [
+      "phone",
+      "tv",
+      "tablet",
+      "pc",
+      "car",
+      "smartWatch",
+      "sportsWatch",
+      "smartVision"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "electrBoard",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "ElectronicBoardAbility",
+        "icon": "res/drawable/com.huawei.board.png",
+        "label": "test app 1",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{"app": {"bundleName": "com.huawei.cenctrl","vendor": "huawei","version": {"code": 1,"name": "1.0"},"apiVersion": {"compatible": 3,"target": 4}},"deviceConfig": {"default": {"keepAlive": true},"smartCamera": {"keepAlive": true}},"module": {"package": "com.huawei.cenctrl","name": ".MyHarmonyAbilityPackage","deviceType": ["phone", "tv","tablet", "pc","car","smartWatch","sportsWatch","smartVision"],"distro": {"deliveryWithInstall": true,"moduleName": "cenctrl","moduleType": "entry"},"abilities": [{"name": "CenctrlAbility","icon": "res/icon.png","label": "cenctrl","launchType": "standard","type": "page","visible":true}],"reqPermissions": [
+      {
+        "name": "ohos.permission.CAMERA",
+        "reason": "USER_GRANT",
+        "usedScene": {
+          "ability": [
+            ".FormAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.MODIFY_AUDIO_SETTINGS",
+        "reason": "SYSTEM_GRANT",
+        "usedScene": {
+          "ability": [
+            ".FormAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "reason": "USER_GRANT",
+        "usedScene": {
+          "ability": [
+            ".FormAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "USER_GRANT",
+        "usedScene": {
+          "ability": [
+            ".FormAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "reason": "USER_GRANT",
+        "usedScene": {
+          "ability": [
+            ".FormAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]}}

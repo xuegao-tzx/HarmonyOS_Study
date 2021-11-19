@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F1F3F5"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="22vp"
+            ohos:right_margin="18vp"/>
+
+        <Text
+            ohos:id="$+id:net_text_network"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alpha="0.8"
+            ohos:text="查看帮助"
+            ohos:text_size="18vp"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="vertical"
+        ohos:top_margin="2vp">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_network_help"
+            ohos:top_margin="97vp"/>
+
+        <Text
+            ohos:height="21vp"
+            ohos:width="288vp"
+            ohos:text="请尝试以下操作并重新配网："
+            ohos:text_size="16vp"
+            ohos:top_margin="40vp"/>
+
+        <Text
+            ohos:height="19vp"
+            ohos:width="288vp"
+            ohos:text="1.检查设备是否接通电源："
+            ohos:text_size="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Text
+            ohos:height="19vp"
+            ohos:width="288vp"
+            ohos:text="2.确认设备端AP是否正常："
+            ohos:text_size="16vp"
+            ohos:top_margin="8vp"/>
+
+        <Text
+            ohos:height="19vp"
+            ohos:width="288vp"
+            ohos:text="3.确认网络是否正常："
+            ohos:text_size="16vp"
+            ohos:top_margin="8vp"/>
+
+        <Text
+            ohos:height="19vp"
+            ohos:width="288vp"
+            ohos:text="4.点击重新配网："
+            ohos:text_size="16vp"
+            ohos:top_margin="8vp"/>
+
+        <Button
+            ohos:id="$+id:net_button_cancel"
+            ohos:height="40vp"
+            ohos:width="280vp"
+            ohos:background_element="$graphic:background_ability_cancel"
+            ohos:text="取消"
+            ohos:text_color="#0A59F7"
+            ohos:text_size="14vp"
+            ohos:top_margin="53vp"/>
+
+        <Button
+            ohos:id="$+id:net_button_ok"
+            ohos:height="40vp"
+            ohos:width="280vp"
+            ohos:background_element="$graphic:background_ability_cancel"
+            ohos:text="重新配网"
+            ohos:text_color="#0A59F7"
+            ohos:text_size="14vp"
+            ohos:top_margin="16vp"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

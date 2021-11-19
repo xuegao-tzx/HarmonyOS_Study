@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:background_page"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:curtain_img_left"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="25vp"
+            ohos:right_margin="15vp"/>
+
+        <Text
+            ohos:id="$+id:curtain_text_name"
+            ohos:height="25vp"
+            ohos:width="209vp"
+            ohos:text="智能窗帘"
+            ohos:text_color="$color:black"
+            ohos:text_size="18vp"/>
+
+        <Image
+            ohos:id="$+id:curtain_img_right"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_about"
+            ohos:left_margin="39vp"/>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:top_margin="8vp">
+
+                <Image
+                    ohos:id="$+id:curtain_image_logo"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_curtain"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="32vp">
+
+                <Text
+                    ohos:id="$+id:curtain_text_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="24vp"
+                    ohos:line_height_num="13.5vp"
+                    ohos:text="已关闭"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <Image
+                    ohos:id="$+id:curtain_image_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_switch_off"
+                    ohos:left_margin="189.7vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:left_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:right_margin="12vp"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:curtain_text_open"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="打开"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:curtain_image_open"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_curtain_open_unselected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:curtain_text_close"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="关闭"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:curtain_image_close"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_curtain_close_selected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="64vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="开合度"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Text
+                        ohos:id="$+id:curtain_text_bright"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="100%"
+                        ohos:text_color="$color:blue"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:id="$+id:curtain_slider_bright"
+                    ohos:height="40vp"
+                    ohos:width="243.5vp"
+                    ohos:left_margin="10vp"
+                    ohos:max="100"
+                    ohos:min="1"
+                    ohos:progress="100"
+                    ohos:progress_color="$color:blue"
+                    ohos:progress_width="2vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:left_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:right_margin="12vp"
+                    ohos:top_margin="12vp">
+
+
+                    <Text
+                        ohos:id="$+id:curtain_text_timer"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="定时"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+
+                    <Image
+                        ohos:id="$+id:curtain_image_timer"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_timer_unselected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:curtain_text_appoint"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="预约"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:curtain_image_appoint"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_appoint_unselected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="64vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="使用场景"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Text
+                        ohos:id="$+id:curtain_text_notic"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:left_margin="24vp"
+                        ohos:text="为你甄选几种智能模式"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:id="$+id:curtain_image_notice"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_notice"
+                    ohos:left_margin="111.1vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="35vp"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="horizontal"
+                ohos:top_margin="8vp">
+
+                <Text
+                    ohos:id="$+id:curtain_text_state"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:alpha="0.6"
+                    ohos:text="收起"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="16vp"/>
+
+                <Image
+                    ohos:id="$+id:curtain_image_state"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_tucked"
+                    ohos:left_margin="16vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_margin="16vp">
+
+                <Text
+                    ohos:id="$+id:curtain_text_device"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:line_height_num="23.5vp"
+                    ohos:text="设备服务"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:bottom_margin="8vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="8vp">
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:left_margin="16vp"
+                        ohos:orientation="horizontal"
+                        ohos:right_margin="12vp"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:curtain_text_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="更多产品"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+
+                        <Image
+                            ohos:id="$+id:curtain_image_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_more_device"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:curtain_text_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="配件更换"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+                        <Image
+                            ohos:id="$+id:curtain_image_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_replace"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </ScrollView>
+</DirectionalLayout>

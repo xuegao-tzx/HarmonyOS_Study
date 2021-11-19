@@ -1,0 +1,224 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "数字管家"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "myability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "entry_MyAbility",
+      "value": "entry_MyAbility"
+    },
+    {
+      "name": "loginability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "entry_LoginAbility",
+      "value": "entry_LoginAbility"
+    },
+    {
+      "name": "adddeviceability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "entry_AddDeviceAbility",
+      "value": "entry_AddDeviceAbility"
+    },
+    {
+      "name": "sweepingrobotability_description",
+      "value": "扫地机器人"
+    },
+    {
+      "name": "entry_SweepingRobotAbility",
+      "value": "扫地机器人"
+    },
+    {
+      "name": "deviceControl_description",
+      "value": "设备控制页"
+    },
+    {
+      "name": "lampability_description",
+      "value": "智能台灯"
+    },
+    {
+      "name": "entry_LampAbility",
+      "value": "智能台灯"
+    },
+    {
+      "name": "curtainAbility_description",
+      "value": "智能窗帘"
+    },
+    {
+      "name": "entry_CurtainAbility",
+      "value": "智能窗帘"
+    },
+    {
+      "name": "wateringAbility_description",
+      "value": "智能养花机"
+    },
+    {
+      "name": "entry_WateringAbility",
+      "value": "智能养花机"
+    },
+    {
+      "name": "smokeDetectorAbility_description",
+      "value": "烟感报警器"
+    },
+    {
+      "name": "entry_SmokeDetectorAbility",
+      "value": "烟感报警器"
+    },
+    {
+      "name": "flammableGasAbility_description",
+      "value": "可燃气体报警器"
+    },
+    {
+      "name": "entry_FlammableGasAbility",
+      "value": "可燃气体报警器"
+    },
+    {
+      "name": "formaldehydeAbility_description",
+      "value": "甲醛报警器"
+    },
+    {
+      "name": "entry_FormaldehydeAbility",
+      "value": "甲醛报警器"
+    },
+    {
+      "name": "trashCanAbility_description",
+      "value": "垃圾箱"
+    },
+    {
+      "name": "entry_TrashCanAbility",
+      "value": "垃圾箱"
+    },
+    {
+      "name": "fanAbility_description",
+      "value": "电风扇"
+    },
+    {
+      "name": "entry_FanAbility",
+      "value": "电风扇"
+    },
+    {
+      "name": "childrenWatchAbility_description",
+      "value": "儿童手表"
+    },
+    {
+      "name": "entry_ChildrenWatchAbility",
+      "value": "儿童手表"
+    },
+    {
+      "name": "updateDeviceNameAbility_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "entry_UpdateDeviceNameAbility",
+      "value": "entry_UpdateDeviceNameAbility"
+    },
+    {
+      "name": "baseUrl",
+      "value": "http://81.71.17.188:8080/distschedule-api/"
+    },
+    {
+      "name": "log_tag",
+      "value": "DistSchedule_log"
+    },
+    {
+      "name": "familyability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "familyability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_FamilyAbility",
+      "value": "entry_FamilyAbility"
+    },
+    {
+      "name": "schedulemanageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "schedulemanageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ScheduleManageAbility",
+      "value": "entry_ScheduleManageAbility"
+    },
+    {
+      "name": "serviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "scanability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "scanability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ScanAbility",
+      "value": "entry_ScanAbility"
+    },
+    {
+      "name": "imageselectoractivity_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "imageselectoractivity_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ImageSelectorActivity",
+      "value": "entry_ImageSelectorActivity"
+    },
+    {
+      "name": "takephotoability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "takephotoability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TakePhotoAbility",
+      "value": "entry_TakePhotoAbility"
+    },
+    {
+      "name": "largeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "largeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_LargeAbility",
+      "value": "entry_LargeAbility"
+    },
+    {
+      "name": "recognizeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "recognizeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RecognizeAbility",
+      "value": "entry_RecognizeAbility"
+    }
+  ]
+}

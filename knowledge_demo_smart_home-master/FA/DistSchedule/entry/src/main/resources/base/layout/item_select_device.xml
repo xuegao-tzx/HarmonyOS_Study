@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:selectDevice_dl_item"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:left_margin="12vp"
+    ohos:orientation="vertical"
+    ohos:right_margin="12vp">
+
+
+    <Text
+        ohos:id="$+id:selectDevice_text_deviceType"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="16vp"
+        ohos:text="家庭设备"
+        ohos:text_size="14vp"
+        ohos:top_margin="32vp"/>
+
+    <DependentLayout
+        ohos:height="80vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_card"
+        ohos:bottom_margin="12vp">
+
+        <Image
+            ohos:id="$+id:selectDevice_img_icon"
+            ohos:height="56vp"
+            ohos:width="56vp"
+            ohos:vertical_center="true"/>
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="76vp"
+            ohos:orientation="vertical"
+            ohos:vertical_center="true">
+
+            <Text
+                ohos:id="$+id:selectDevice_text_deviceName"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="台灯"
+                ohos:text_size="14vp"/>
+
+            <Text
+                ohos:id="$+id:selectDevice_text_deviceOwner"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="来自我的设备"
+                ohos:text_color="#cccccc"
+                ohos:text_size="14vp"/>
+        </DirectionalLayout>
+
+
+        <Text
+            ohos:id="$+id:selectDevice_text_isOnLine"
+            ohos:height="16vp"
+            ohos:width="36vp"
+            ohos:align_parent_right="true"
+            ohos:text="离线"
+            ohos:text_alignment="center"
+            ohos:text_size="10vp"/>
+
+        <Image
+            ohos:id="$+id:member_img_checkbox"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_parent_right="true"
+            ohos:image_src="$media:icon_unselected"
+            ohos:right_margin="18vp"
+            ohos:vertical_center="true"/>
+
+    </DependentLayout>
+
+</DirectionalLayout>

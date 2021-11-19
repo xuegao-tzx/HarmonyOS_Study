@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<vector
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="24vp"
+    ohos:width="24vp"
+    ohos:viewportHeight="1024"
+    ohos:viewportWidth="1024">
+
+    <path
+        ohos:fillColor="#E84026"
+        ohos:pathData="M510.65,962C264.6,962 63.3,760.26 63.3,513.7S264.6,65.41 510.65,65.41 958,267.14 958,513.7 756.69,962 510.65,962zM655,857.61a377.28,377.28 0,0 0,198.65 -199.12,371.82 371.82,0 0,0 0,-289.58A377.18,377.18 0,0 0,655 169.79a369.15,369.15 0,0 0,-288.64 0,377.09 377.09,0 0,0 -198.71,199.12 371.82,371.82 0,0 0,0 289.58A377.12,377.12 0,0 0,366.33 857.6a369.21,369.21 0,0 0,288.64 0z"></path>
+
+    <path
+        ohos:fillColor="#E84026"
+        ohos:pathData="M474,662m0,-37.5l0,-338q0,-37.5 37.5,-37.5l0,0q37.5,0 37.5,37.5l0,338q0,37.5 -37.5,37.5l0,0q-37.5,0 -37.5,-37.5Z"></path>
+
+    <path
+        ohos:fillColor="#E84026"
+        ohos:pathData="M514.5,741.5m-37.5,0a37.5,37.5 0,1 0,75 0,37.5 37.5,0 1,0 -75,0Z"></path>
+</vector>

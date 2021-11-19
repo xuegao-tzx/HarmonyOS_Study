@@ -1,0 +1,8 @@
+# Copyright (C) 2020 Hisilicon (Shanghai) Technologies Co., Ltd. All rights reserved.
+
+group("smart_cenctrl_board") {
+    deps = [ "init_configs",
+             "demo_cenctrl:cenctrl"
+    ]
+
+}

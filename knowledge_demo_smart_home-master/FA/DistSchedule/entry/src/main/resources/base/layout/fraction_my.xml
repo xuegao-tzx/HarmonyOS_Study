@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="top"
+    ohos:background_element="$color:background_page"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:bottom_margin="30fp"
+        ohos:left_margin="16fp"
+        ohos:right_margin="16fp"
+        ohos:top_margin="20fp">
+
+        <Image
+            ohos:id="$+id:user_header"
+            ohos:height="48vp"
+            ohos:width="48vp"
+            ohos:image_src="$media:img_touxiang_papa"
+            ohos:scale_mode="stretch"
+            />
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:alignment="vertical_center"
+            ohos:orientation="vertical"
+            ohos:right_of="$id:user_header">
+
+            <Text
+                ohos:id="$+id:text_user_name"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:left_margin="16vp"
+                ohos:text="13412345678"
+                ohos:text_color="#FF000000"
+                ohos:text_size="14fp"/>
+
+            <Text
+                ohos:id="$+id:text_device_count"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:left_margin="16vp"
+                ohos:text="共绑定0台设备"
+                ohos:text_color="#FF000000"
+                ohos:text_size="14fp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:qr_code_parent"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:align_parent_right="true"
+            ohos:alignment="vertical_center"
+            ohos:orientation="horizontal">
+
+            <Image
+                ohos:id="$+id:qr_code_icon"
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_qr_code"
+                ohos:left_margin="50vp"
+                ohos:scale_mode="stretch"
+                />
+
+            <Image
+                ohos:id="$+id:right_icon"
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:scale_mode="stretch"
+                />
+        </DirectionalLayout>
+    </DependentLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="16vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="我的家庭"
+            ohos:text_color="#FF000000"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:family_count_text"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="(0)"
+            ohos:text_color="#FF000000"
+            ohos:text_size="14fp"/>
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        ohos:id="$+id:empty_family_directionallayout"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:top_padding="50vp"
+        ohos:visibility="hide"
+        >
+
+        <Image
+            ohos:id="$+id:empty_family_icon"
+            ohos:height="96vp"
+            ohos:width="96vp"
+            ohos:image_src="$media:img_empty_family"
+            ohos:scale_mode="stretch"
+            />
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:alignment="horizontal_center"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="您还没有加入家庭"
+                ohos:text_color="#FF000000"
+                ohos:text_size="14fp"/>
+
+            <Text
+                ohos:id="$+id:text_create"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:left_margin="8vp"
+                ohos:text="去创建"
+                ohos:text_color="#FF266EFB"
+                ohos:text_size="14fp"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:familylist_directionallayout"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:visibility="hide">
+
+        <ListContainer
+            ohos:id="$+id:families_container"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="horizontal_center"/>
+    </DirectionalLayout>
+    <!--生活服务-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="16vp"
+        ohos:text="生活服务"
+        ohos:text_color="#FF000000"
+        ohos:text_size="14fp"
+        ohos:top_margin="20vp"/>
+
+    <DependentLayout
+        ohos:id="$+id:family_dl_accountbook"
+        ohos:height="64vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_device_list"
+        ohos:left_margin="12vp"
+        ohos:right_margin="12vp"
+        ohos:top_margin="16vp">
+
+        <Image
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:image_src="$media:icon_myzhangben"
+            ohos:layout_alignment="center"
+            ohos:vertical_center="true"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="45vp"
+            ohos:text="我的家庭账本"
+            ohos:text_color="#FF000000"
+            ohos:text_size="14fp"
+            ohos:vertical_center="true"/>
+
+        <Image
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:align_parent_right="true"
+            ohos:image_src="$media:icon_main_right"
+            ohos:layout_alignment="center"
+            ohos:vertical_center="true"/>
+    </DependentLayout>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_margin="20vp"
+        ohos:left_margin="16vp"
+        ohos:text="健康出行"
+        ohos:text_color="#FF000000"
+        ohos:text_size="14fp"
+        ohos:top_margin="32vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_device_list"
+        ohos:bottom_padding="16vp"
+        ohos:left_margin="12vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="12vp"
+        ohos:top_padding="16vp">
+
+        <DependentLayout
+            ohos:id="$+id:family_dl_buscard"
+            ohos:height="48vp"
+            ohos:width="match_parent">
+
+            <Image
+                ohos:height="40vp"
+                ohos:width="40vp"
+                ohos:image_src="$media:icon_mybus"
+                ohos:layout_alignment="center"
+                ohos:vertical_center="true"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="45vp"
+                ohos:text="我的公交卡"
+                ohos:text_color="#FF000000"
+                ohos:text_size="14fp"
+                ohos:vertical_center="true"/>
+
+            <Image
+                ohos:height="40vp"
+                ohos:width="40vp"
+                ohos:align_parent_right="true"
+                ohos:image_src="$media:icon_main_right"
+                ohos:layout_alignment="center"
+                ohos:vertical_center="true"/>
+        </DependentLayout>
+
+        <DependentLayout
+            ohos:id="$+id:family_dl_qrcode"
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:top_margin="16vp">
+
+            <Image
+                ohos:height="40vp"
+                ohos:width="40vp"
+                ohos:image_src="$media:ic_health_code"
+                ohos:layout_alignment="center"
+                ohos:vertical_center="true"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="45vp"
+                ohos:text="我的健康二维码"
+                ohos:text_color="#FF000000"
+                ohos:text_size="14fp"
+                ohos:vertical_center="true"/>
+
+            <Image
+                ohos:height="40vp"
+                ohos:width="40vp"
+                ohos:align_parent_right="true"
+                ohos:image_src="$media:icon_main_right"
+                ohos:layout_alignment="center"
+                ohos:vertical_center="true"/>
+        </DependentLayout>
+
+        <DependentLayout
+            ohos:id="$+id:family_dl_mycar"
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:top_margin="16vp">
+
+            <Image
+                ohos:height="40vp"
+                ohos:width="40vp"
+                ohos:image_src="$media:icon_mycar"
+                ohos:layout_alignment="center"
+                ohos:vertical_center="true"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="45vp"
+                ohos:text="我的车辆"
+                ohos:text_color="#FF000000"
+                ohos:text_size="14fp"
+                ohos:vertical_center="true"/>
+
+            <Image
+                ohos:height="40vp"
+                ohos:width="40vp"
+                ohos:align_parent_right="true"
+                ohos:image_src="$media:icon_main_right"
+                ohos:layout_alignment="center"
+                ohos:vertical_center="true"/>
+        </DependentLayout>
+
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

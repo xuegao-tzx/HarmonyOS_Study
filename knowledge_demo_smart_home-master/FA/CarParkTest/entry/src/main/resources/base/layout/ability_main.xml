@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FF0A2044"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:left_padding="24vp"
+        ohos:top_padding="40vp"
+        >
+
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:back_icon"
+            ohos:long_click_enabled="true"
+            ></Image>
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="73vp"
+            ohos:text_size="20fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text="B区S188车位"
+            />
+
+    </DirectionalLayout>
+
+    <StackLayout
+        ohos:top_margin="82vp"
+        ohos:layout_alignment="center"
+        ohos:width="302vp"
+        ohos:height="302vp">
+
+        <Image
+            ohos:layout_alignment="center"
+            ohos:height="302vp"
+            ohos:width="302vp"
+            ohos:image_src="$media:circle_icon"
+            />
+
+        <!-- 有车，显示 -->
+        <StackLayout
+            ohos:id="$+id:sl_has_car"
+            ohos:layout_alignment="center"
+            ohos:visibility="hide"
+            ohos:height="302vp"
+            ohos:width="137vp">
+            <Image
+                ohos:width="match_parent"
+                ohos:height="match_parent"
+                ohos:image_src="$media:car"
+                />
+
+            <DirectionalLayout
+                ohos:height="97vp"
+                ohos:width="97vp"
+                ohos:orientation="vertical"
+                ohos:alignment="center"
+                ohos:layout_alignment="center"
+                ohos:background_element="$graphic:background_car"
+                >
+
+                <Image
+                    ohos:height="40vp"
+                    ohos:width="40vp"
+                    ohos:image_src="$media:has_car_icon"
+                    />
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="有车"
+                    ohos:text_size="21fp"
+                    ohos:text_color="#ffffff"/>
+
+            </DirectionalLayout>
+
+        </StackLayout>
+
+        <!-- 无车，显示 -->
+        <Text
+            ohos:id="$+id:text_not_has_car"
+            ohos:layout_alignment="center"
+            ohos:height="186vp"
+            ohos:width="83vp"
+            ohos:text_size="140fp"
+            ohos:text_color="#66ffffff"
+            ohos:text="P"
+            />
+
+    </StackLayout>
+
+    <Text
+        ohos:id="$+id:tx_car"
+        ohos:top_margin="35vp"
+        ohos:layout_alignment="center"
+        ohos:height="match_content"
+        ohos:width="200vp"
+        ohos:multiple_lines="true"
+        ohos:text="$string:string_not_has_car"
+        ohos:text_color="#ffffff"
+        ohos:text_size="20fp"
+        />
+
+    <StackLayout
+        ohos:height="120vp"
+        ohos:width="312vp"
+        ohos:layout_alignment="center"
+        ohos:top_margin="74vp">
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:layout_alignment="center"
+            ohos:background_element="$graphic:background_time"
+            ohos:padding="12vp"
+
+            >
+
+            <DirectionalLayout
+                ohos:height="48vp"
+                ohos:width="312vp"
+                ohos:orientation="horizontal"
+                ohos:alignment="vertical_center"
+                >
+                <Text
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:text_size="16fp"
+                    ohos:text_color="#ffffff"
+                    ohos:text="最近驶入时间"
+                    ohos:right_margin="18vp"
+                    />
+
+                <Text
+                    ohos:id="$+id:tx_car_in_time"
+                    ohos:width="158vp"
+                    ohos:height="match_content"
+                    ohos:text_size="16fp"
+                    ohos:text_color="#ffffff"
+                    ohos:text_alignment="right"
+                    />
+
+                <Image
+                    ohos:height="24vp"
+                    ohos:width="24vp"
+                    ohos:image_src="$media:next"/>
+
+            </DirectionalLayout>
+
+
+            <DirectionalLayout
+                ohos:height="48vp"
+                ohos:width="312vp"
+                ohos:orientation="horizontal"
+                ohos:alignment="vertical_center"
+                >
+                <Text
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:text_size="16fp"
+                    ohos:text_color="#ffffff"
+                    ohos:text="最后驶离时间"
+                    ohos:right_margin="18vp"
+                    />
+                <Text
+                    ohos:id="$+id:tx_car_out_time"
+                    ohos:width="158vp"
+                    ohos:height="match_content"
+                    ohos:text_size="16fp"
+                    ohos:text_color="#ffffff"
+                    ohos:text_alignment="right"
+                    />
+
+                <Image
+                    ohos:height="24vp"
+                    ohos:width="24vp"
+                    ohos:image_src="$media:next"/>
+
+            </DirectionalLayout>
+
+
+        </DirectionalLayout>
+
+        <Component
+            ohos:layout_alignment="center"
+            ohos:height="1vp"
+            ohos:left_margin="12vp"
+            ohos:right_margin="12vp"
+            ohos:width="match_parent"
+            ohos:background_element="#33ffffff"
+            ohos:left_padding="12vp"
+            ohos:right_padding="12vp"
+            />
+
+    </StackLayout>
+
+
+
+
+</DirectionalLayout>

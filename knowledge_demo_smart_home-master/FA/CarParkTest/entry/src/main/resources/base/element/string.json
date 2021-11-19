@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "car_park_demo"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "string_has_car",
+      "value": "         车位有停车                           请确认是否为主人车辆"
+    },
+    {
+      "name": "string_not_has_car",
+      "value": "     车位暂空，可停车"
+    }
+  ]
+}

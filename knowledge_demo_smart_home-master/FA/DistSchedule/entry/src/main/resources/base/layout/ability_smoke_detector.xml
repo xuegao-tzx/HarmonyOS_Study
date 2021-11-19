@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:background_page"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:smoke_img_left"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="25vp"
+            ohos:right_margin="15vp"/>
+
+        <Text
+            ohos:id="$+id:smoke_text_name"
+            ohos:height="25vp"
+            ohos:width="209vp"
+            ohos:text="烟感报警器"
+            ohos:text_color="$color:black"
+            ohos:text_size="18vp"/>
+
+        <Image
+            ohos:id="$+id:smoke_img_right"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_about"
+            ohos:left_margin="39vp"/>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:top_margin="8vp">
+
+                <Image
+                    ohos:id="$+id:smoke_image_logo"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_smoke_detector"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:smoke_common_show"
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="32vp">
+
+                <Text
+                    ohos:id="$+id:smoke_text_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:line_height_num="13.5vp"
+                    ohos:text="已开启"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="114vp"
+                    ohos:alignment="center"
+                    ohos:left_margin="31.7vp"
+                    ohos:orientation="vertical">
+
+                    <Text
+                        ohos:id="$+id:smoke_text_state"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.9"
+                        ohos:text="正常"
+                        ohos:text_color="$color:green"
+                        ohos:text_size="24vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="烟雾检测"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:id="$+id:smoke_image_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_switch_on"
+                    ohos:left_margin="48vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:smoke_alert_show"
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="32vp"
+                ohos:visibility="hide">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:alpha="0.9"
+                    ohos:left_margin="16vp"
+                    ohos:text="报警中"
+                    ohos:text_color="$color:red"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="114vp"
+                    ohos:alignment="center"
+                    ohos:left_margin="31.7vp"
+                    ohos:orientation="vertical">
+
+                    <Text
+                        ohos:id="$+id:smoke_alert_time"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.9"
+                        ohos:text="00:00:10"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="24vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="烟感报警中"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:id="$+id:smoke_alert_stop"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_switch_stop"
+                    ohos:left_margin="48vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <DirectionalLayout
+                    ohos:height="88vp"
+                    ohos:width="112vp"
+                    ohos:alignment="center"
+                    ohos:orientation="vertical">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="85"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="24vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.6"
+                            ohos:text="%"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="12vp"/>
+
+                        <Image
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_dianliang"
+                            ohos:top_margin="12vp">
+                        </Image>
+
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="当前电量"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="match_parent"
+                    ohos:width="60vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_split_line">
+                    </Image>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="88vp"
+                    ohos:width="112vp"
+                    ohos:alignment="center"
+                    ohos:orientation="vertical">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:id="$+id:smoke_current_value"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="34.89"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="24vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.6"
+                            ohos:text="ppm"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="当前浓度"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="64vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <Text
+                    ohos:height="22vp"
+                    ohos:width="64vp"
+                    ohos:left_margin="16vp"
+                    ohos:text="设备自检"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="16vp"/>
+
+                <Image
+                    ohos:id="$+id:smoke_image_check_switch"
+                    ohos:height="24vp"
+                    ohos:width="40vp"
+                    ohos:image_src="$media:img_switch_off"
+                    ohos:left_margin="204vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="64vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="16vp"
+                        ohos:text="报警阈值"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:id="$+id:smoke_text_threshold"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="1000"
+                            ohos:text_color="$color:blue"
+                            ohos:text_size="12vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="ppm"
+                            ohos:text_color="$color:blue"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:id="$+id:smoke_slider_threshold"
+                    ohos:height="40vp"
+                    ohos:width="243.5vp"
+                    ohos:left_margin="3vp"
+                    ohos:max="10000"
+                    ohos:min="0"
+                    ohos:progress="1000"
+                    ohos:progress_color="$color:blue"
+                    ohos:progress_width="2vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="64vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="vertical">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="16vp"
+                        ohos:text="日志"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:left_margin="16vp"
+                        ohos:text="暂无日志"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_notice"
+                    ohos:left_margin="225vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="35vp"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="horizontal"
+                ohos:top_margin="8vp">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:alpha="0.6"
+                    ohos:text="收起"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="16vp"/>
+
+                <Image
+                    ohos:id="$+id:smoke_image_state"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_tucked"
+                    ohos:left_margin="16vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_margin="16vp">
+
+                <Text
+                    ohos:id="$+id:smoke_text_device"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:line_height_num="23.5vp"
+                    ohos:text="设备服务"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:bottom_margin="8vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="8vp">
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:left_margin="16vp"
+                        ohos:orientation="horizontal"
+                        ohos:right_margin="12vp"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:smoke_text_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="更多产品"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+
+                        <Image
+                            ohos:id="$+id:smoke_image_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_more_device"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:smoke_text_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="配件更换"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+                        <Image
+                            ohos:id="$+id:smoke_image_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_replace"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </ScrollView>
+</DirectionalLayout>

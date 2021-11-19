@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/res/ohos-auto"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="start"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="$graphic:background_fraction_top"
+        ohos:left_padding="24vp"
+        ohos:orientation="horizontal"
+        ohos:right_padding="24vp">
+
+        <Image
+            ohos:id="$+id:schedule_img_cancel"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:icon_close"/>
+
+        <Text
+            ohos:id="$+id:schedule_text_topTitle"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="18vp"
+            ohos:text="新增日程"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+        <Image
+            ohos:id="$+id:schedule_img_confirm"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:icon_ok"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="start"
+        ohos:background_element="$color:background_page"
+        ohos:left_padding="12vp"
+        ohos:right_padding="12vp"
+        ohos:top_padding="20vp"
+        ohos:weight="1">
+
+        <TextField
+            ohos:id="$+id:schedule_tf_name"
+            ohos:height="56vp"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="6vp"
+            ohos:hint="我的分布日程"
+            ohos:hint_color="#40000000"
+            ohos:left_padding="16vp"
+            ohos:right_padding="16vp"
+            ohos:text=""
+            ohos:text_alignment="vertical_center"
+            ohos:text_size="16fp"/>
+
+        <DirectionalLayout
+            ohos:id="$+id:schedule_dl_member"
+            ohos:height="56vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="6vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+            <Image
+                ohos:height="24vp"
+                ohos:width="24vp"
+                ohos:image_src="$media:icon_group"
+                ohos:right_margin="16vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="通知成员"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+            <Text
+                ohos:id="$+id:schedule_text_member"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="请选择成员"
+                ohos:text=""
+                ohos:text_size="12fp"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:schedule_img_add_device"
+            ohos:height="56vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="6vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+            <Image
+                ohos:height="24vp"
+                ohos:width="24vp"
+                ohos:image_src="$media:icon_devices"
+                ohos:right_margin="16vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="相关设备"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+            <Text
+                ohos:id="$+id:schedule_text_device"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="请选择设备"
+                ohos:text=""
+                ohos:text_size="12fp"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="6vp"
+            ohos:left_padding="16vp"
+            ohos:right_padding="16vp">
+
+            <DirectionalLayout
+                ohos:height="52vp"
+                ohos:width="match_parent"
+                ohos:alignment="vertical_center"
+                ohos:orientation="horizontal">
+
+                <Image
+                    ohos:height="24vp"
+                    ohos:width="24vp"
+                    ohos:image_src="$media:icon_time"
+                    ohos:right_margin="16vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="全天"
+                    ohos:text_size="14fp"
+                    ohos:weight="1"/>
+
+                <Switch
+                    ohos:id="$+id:schedule_switch_allday"
+                    ohos:height="20vp"
+                    ohos:width="36vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="52vp"
+                ohos:width="match_parent"
+                ohos:alignment="vertical_center"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="24vp"
+                    ohos:width="24vp"
+                    ohos:right_margin="16vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="开始时间"
+                    ohos:text_size="14fp"
+                    ohos:weight="1"/>
+
+                <DirectionalLayout
+                    ohos:id="$+id:schedule_dl_start"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:id="$+id:schedule_text_start"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="09:00:00"
+                        ohos:text_size="14fp"/>
+
+                    <Image
+                        ohos:height="16vp"
+                        ohos:width="16vp"
+                        ohos:image_src="$media:icon_main_right"
+                        ohos:left_margin="4vp"/>
+                </DirectionalLayout>
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="52vp"
+                ohos:width="match_parent"
+                ohos:alignment="vertical_center"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="24vp"
+                    ohos:width="24vp"
+                    ohos:right_margin="16vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="结束时间"
+                    ohos:text_size="14fp"
+                    ohos:weight="1"/>
+
+                <DirectionalLayout
+                    ohos:id="$+id:schedule_dl_end"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:id="$+id:schedule_text_end"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="09:00:00"
+                        ohos:text_size="14fp"/>
+
+                    <Image
+                        ohos:height="16vp"
+                        ohos:width="16vp"
+                        ohos:image_src="$media:icon_main_right"
+                        ohos:left_margin="4vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="6vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="vertical"
+            ohos:right_padding="16vp">
+
+            <DirectionalLayout
+                ohos:height="52vp"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="horizontal">
+
+                <Image
+                    ohos:height="24vp"
+                    ohos:width="24vp"
+                    ohos:image_src="$media:icon_clock"
+                    ohos:right_margin="16vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="提醒方式"
+                    ohos:text_size="14fp"
+                    ohos:weight="1"/>
+
+                <Button
+                    ohos:id="$+id:schedule_btn_single"
+                    ohos:height="28vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:button_select"
+                    ohos:text="单次"
+                    ohos:text_alignment="center"
+                    ohos:text_size="14fp"
+                    ohos:weight="1"/>
+
+                <Button
+                    ohos:id="$+id:schedule_btn_repeat"
+                    ohos:height="28vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:button_unselect"
+                    ohos:text="重复"
+                    ohos:text_alignment="center"
+                    ohos:text_size="14fp"
+                    ohos:weight="1"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="52vp"
+                    ohos:width="match_parent"
+                    ohos:left_padding="40vp"
+                    ohos:text="重复日期"
+                    ohos:text_size="14fp"/>
+
+                <com.nex3z.togglebuttongroup.MultiSelectToggleGroup
+                    ohos:id="$+id:schedule_mstg_checkbox"
+                    ohos:height="104vp"
+                    ohos:width="340vp"
+                    ohos:layout_alignment="center"
+                    ohos:left_padding="40vp"
+                    app:tbgChildSpacing="20vp"
+                    app:tbgFlow="true"
+                    app:tbgRowSpacing="8vp">
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="一"
+                        ohos:text_size="14fp"/>
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="二"
+                        ohos:text_size="14fp"/>
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="三"
+                        ohos:text_size="14fp"/>
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="四"
+                        ohos:text_size="14fp"/>
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="五"
+                        ohos:text_size="14fp"/>
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="六"
+                        ohos:text_size="14fp"/>
+
+                    <com.nex3z.togglebuttongroup.button.LabelToggle
+                        ohos:height="32vp"
+                        ohos:width="48vp"
+                        ohos:text="日"
+                        ohos:text_size="14fp"/>
+
+                </com.nex3z.togglebuttongroup.MultiSelectToggleGroup>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F7F7F7"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="$graphic:background_fraction_top"
+        ohos:left_padding="24vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="顾家场景"
+            ohos:text_size="18fp"/>
+
+        <Image
+            ohos:height="16vp"
+            ohos:width="16vp"
+            ohos:clip_alignment="left"
+            ohos:image_src="$media:icon_schedule_more"
+            ohos:left_margin="5vp"
+            ohos:weight="1"/>
+
+        <Image
+            ohos:id="$+id:top_img_search"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:icon_search"/>
+
+        <Image
+            ohos:id="$+id:top_img_add"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:icon_add"
+            ohos:left_margin="18vp"
+            ohos:right_margin="18vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:schedule_dl_currentDate"
+        ohos:height="66vp"
+        ohos:width="match_content"
+        ohos:alignment="vertical_center"
+        ohos:left_margin="12vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:schedule_text_dateTitle"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="日期"
+            ohos:text_alignment="vertical_center"
+            ohos:text_color="$color:black"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="16vp"
+            ohos:width="16vp"
+            ohos:image_src="$media:icon_expand"
+            ohos:left_margin="6vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:schedule_dl_container"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:weight="1">
+
+        <ListContainer
+            ohos:id="$+id:schedule_ls_list"
+            ohos:height="match_parent"
+            ohos:width="match_content"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:schedule_dl_empty"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:visibility="visible">
+
+        <Image
+            ohos:height="96vp"
+            ohos:width="96vp"
+            ohos:image_src="$media:img_empty_schedule"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="未创建日程，点击“+”添加"
+            ohos:text_alignment="center"
+            ohos:text_size="14fp"
+            ohos:top_margin="24vp"/>
+
+        <DirectionalLayout
+            ohos:height="200vp"
+            ohos:width="match_parent"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

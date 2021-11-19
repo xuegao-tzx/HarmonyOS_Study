@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F7F7F7"
+    ohos:orientation="vertical">
+
+
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="$graphic:background_card"
+
+        ohos:orientation="horizontal"
+        ohos:right_padding="24vp">
+
+        <DependentLayout
+            ohos:id="$+id:family_dl_back"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:alignment="center">
+
+            <Image
+                ohos:id="$+id:family_img_back"
+                ohos:height="24vp"
+                ohos:width="24vp"
+                ohos:image_src="$media:icon_back"
+                ohos:left_margin="24vp"
+                ohos:right_margin="18vp"/>
+        </DependentLayout>
+
+        <Text
+            ohos:id="$+id:top_text_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="我的家庭"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_card"
+        ohos:left_margin="12vp"
+        ohos:right_margin="12vp">
+
+        <Text
+            ohos:id="$+id:family_text_1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="16vp"
+            ohos:text="家庭成员"
+            ohos:text_size="14fp"
+            ohos:top_margin="15vp"/>
+
+        <Text
+            ohos:id="$+id:family_text_count"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_parent_right="true"
+            ohos:right_margin="16vp"
+            ohos:text="共1人"
+            ohos:text_size="12fp"
+            ohos:top_margin="16vp"/>
+
+        <ListContainer
+            ohos:id="$+id:family_ls_listContainer"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="17vp"
+            ohos:orientation="vertical"
+            ohos:top_margin="40vp"/>
+
+    </DependentLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_card"
+        ohos:left_margin="12vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="12vp"
+        ohos:top_margin="7vp">
+
+        <!--    家庭名称-->
+        <DirectionalLayout
+            ohos:id="$+id:family_dl_familyname"
+            ohos:height="35vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp"
+            ohos:top_margin="22vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="家庭名称"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+
+            <Text
+                ohos:id="$+id:myfamilu_text_familyname"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="相亲相爱一家人"
+                ohos:text_size="12fp"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <!--    家庭二维码-->
+        <DirectionalLayout
+            ohos:id="$+id:family_dl_qrcode"
+            ohos:height="35vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="家庭二维码"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_qr_code"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <!--    我的用户名-->
+        <DirectionalLayout
+            ohos:id="$+id:family_dl_myNickname"
+            ohos:height="35vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="我的用户名"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+
+            <Text
+                ohos:id="$+id:myfamilu_text_name"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="爸爸"
+                ohos:text_size="12fp"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <!--    显示群成员昵称-->
+        <DirectionalLayout
+            ohos:id="$+id:family_dl_groupNickname"
+            ohos:height="35vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="显示群成员昵称"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+
+            <Switch
+                ohos:id="$+id:myfamily_switch_showNicname"
+                ohos:height="20vp"
+                ohos:width="36vp"/>
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:family_bt_exits"
+            ohos:height="36vp"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_button_dark"
+            ohos:bottom_margin="24vp"
+            ohos:left_margin="28vp"
+            ohos:right_margin="28vp"
+            ohos:text="解散并退出"
+            ohos:text_color="$color:col_e84026"
+            ohos:text_size="14fp"
+            ohos:top_margin="24vp"/>
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

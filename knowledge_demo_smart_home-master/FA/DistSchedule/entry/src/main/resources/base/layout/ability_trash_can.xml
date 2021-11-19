@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:background_page"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:trash_can_img_left"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="25vp"
+            ohos:right_margin="15vp"/>
+
+        <Text
+            ohos:id="$+id:trash_can_text_name"
+            ohos:height="25vp"
+            ohos:width="209vp"
+            ohos:text="智能垃圾桶"
+            ohos:text_color="$color:black"
+            ohos:text_size="18vp"/>
+
+        <Image
+            ohos:id="$+id:trash_can_img_right"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_about"
+            ohos:left_margin="39vp"/>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:top_margin="8vp">
+
+                <Image
+                    ohos:id="$+id:trash_can_image_logo"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_trash_can"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:trash_can_common_show"
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="32vp">
+
+                <Text
+                    ohos:id="$+id:trash_can_text_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:line_height_num="13.5vp"
+                    ohos:text="已关闭"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="114vp"
+                    ohos:alignment="center"
+                    ohos:left_margin="31.7vp"
+                    ohos:orientation="vertical">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:id="$+id:trash_can_current_value"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.9"
+                            ohos:text="50"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="24vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.6"
+                            ohos:left_margin="4vp"
+                            ohos:text="%"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="已用容量"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:id="$+id:trash_can_image_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_switch_off"
+                    ohos:left_margin="48vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:trash_can_alert_show"
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="32vp"
+                ohos:visibility="hide">
+
+                <Text
+                    ohos:id="$+id:trash_can_text_alert"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:text="垃圾已满"
+                    ohos:text_color="$color:red"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="100vp"
+                    ohos:alignment="center"
+                    ohos:left_margin="31.7vp"
+                    ohos:orientation="vertical">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.9"
+                            ohos:text="100"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="24vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.6"
+                            ohos:left_margin="4vp"
+                            ohos:text="%"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="已用容量"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:id="$+id:trash_can_image_alert_stop"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_switch_stop"
+                    ohos:left_margin="48vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:left_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:right_margin="12vp"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:trash_can_text_pack"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="16vp"
+                        ohos:text="一键打包"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:trash_can_img_pack"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_pack_unselected"
+                        ohos:left_margin="42vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:trash_can_text_change"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="16vp"
+                        ohos:text="自动换袋"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:trash_can_img_change"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_change_bag_unselected"
+                        ohos:left_margin="42vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:left_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:right_margin="12vp"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:trash_can_text_timer"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="16vp"
+                        ohos:text="定时清理"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:trash_can_img_timer"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_timer_unselected"
+                        ohos:left_margin="42vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:trash_can_text_appoint"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="16vp"
+                        ohos:text="预约清理"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:trash_can_img_appoint"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_appoint_unselected"
+                        ohos:left_margin="42vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="35vp"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="horizontal"
+                ohos:top_margin="8vp">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:alpha="0.6"
+                    ohos:text="收起"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="16vp"/>
+
+                <Image
+                    ohos:id="$+id:trash_can_image_state"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_tucked"
+                    ohos:left_margin="16vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_margin="16vp">
+
+                <Text
+                    ohos:id="$+id:trash_can_text_device"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:line_height_num="23.5vp"
+                    ohos:text="设备服务"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:bottom_margin="8vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="8vp">
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:left_margin="16vp"
+                        ohos:orientation="horizontal"
+                        ohos:right_margin="12vp"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:trash_can_text_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="更多产品"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+
+                        <Image
+                            ohos:id="$+id:trash_can_image_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_more_device"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:trash_can_text_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="配件更换"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+                        <Image
+                            ohos:id="$+id:trash_can_image_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_replace"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </ScrollView>
+</DirectionalLayout>

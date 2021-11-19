@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:top_margin="88vp">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:CPlogo"/>
+
+        <Text
+            ohos:id="$+id:login_text_cpLogo"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alpha="0.9"
+            ohos:text="数字管家"
+            ohos:text_size="18vp"
+            ohos:top_margin="26.7vp"/>
+
+        <Text
+            ohos:id="$+id:login_text_version"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alpha="0.6"
+            ohos:text="版本0.1"
+            ohos:text_size="16vp"
+            ohos:top_margin="5vp"/>
+
+        <TextField
+            ohos:id="$+id:login_text_number"
+            ohos:height="30vp"
+            ohos:width="280vp"
+            ohos:alpha="0.8"
+            ohos:basement="#F0F0F0"
+            ohos:text=""
+            ohos:text_size="16vp"
+            ohos:top_margin="138.3vp"/>
+
+        <Button
+            ohos:id="$+id:login_button_login"
+            ohos:height="40vp"
+            ohos:width="280vp"
+            ohos:background_element="$graphic:background_ability_login"
+            ohos:text="登录"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"
+            ohos:top_margin="32vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal"
+            ohos:top_margin="16vp">
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:login_selected"
+                ohos:right_margin="8vp"/>
+
+            <Text
+                ohos:id="$+id:login_text_agree"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:alpha="0.8"
+                ohos:text="登录表示您同意"
+                ohos:text_size="10vp"/>
+
+            <Text
+                ohos:id="$+id:login_text_declares"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="用户协议与隐私声明"
+                ohos:text_color="$color:blue"
+                ohos:text_size="10vp"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F1F3F5"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="horizontal">
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="300vp"
+            ohos:alignment="vertical_center"
+            ohos:orientation="horizontal"
+            ohos:weight="1">
+
+            <Text
+                ohos:id="$+id:fraction_main_text_number"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="24vp"
+                ohos:text_size="18vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="的家"
+                ohos:text_size="18vp"/>
+        </DirectionalLayout>
+
+        <Image
+            ohos:id="$+id:fraction_main_img_add"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_add"
+            ohos:left_margin="20vp"
+            ohos:right_margin="18vp"/>
+
+    </DirectionalLayout>
+
+    <TabList
+        ohos:id="$+id:tab_list"
+        ohos:height="36vp"
+        ohos:width="match_content"
+        ohos:bottom_margin="15vp"
+        ohos:layout_alignment="center"
+        ohos:normal_text_color="#99000000"
+        ohos:orientation="horizontal"
+        ohos:selected_tab_indicator_color="#0A59F7"
+        ohos:selected_tab_indicator_height="2vp"
+        ohos:selected_text_color="#0A59F7"
+        ohos:tab_indicator_type="bottom_line"
+        ohos:tab_length="50vp"
+        ohos:tab_margin="24vp"
+        ohos:text_alignment="center"
+        ohos:text_size="16vp"
+        ohos:top_margin="15vp">
+    </TabList>
+
+    <StackLayout
+        ohos:id="$+id:fraction_main_sense"
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_main_tabSense">
+        </Image>
+
+        <Text
+            ohos:id="$+id:fraction_main_senseName"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="30vp"
+            ohos:text="顾家场景"
+            ohos:text_size="18vp"
+            ohos:top_margin="140vp"/>
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_main_right"
+            ohos:left_margin="150vp"
+            ohos:top_margin="145vp">
+        </Image>
+    </StackLayout>
+
+    <ScrollView
+        ohos:id="$+id:fraction_main_deviceScrollView"
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <DirectionalLayout
+            ohos:id="$+id:fraction_main_deviceList"
+            ohos:height="match_content"
+            ohos:width="match_content">
+        </DirectionalLayout>
+    </ScrollView>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal">
+    </DirectionalLayout>
+
+</DirectionalLayout>

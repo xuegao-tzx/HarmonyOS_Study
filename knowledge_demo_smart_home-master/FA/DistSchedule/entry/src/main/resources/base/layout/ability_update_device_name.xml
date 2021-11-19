@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:update_device_name_cancel"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="25vp"
+            ohos:right_margin="15vp"/>
+
+        <Text
+            ohos:height="22vp"
+            ohos:width="116vp"
+            ohos:text="修改设备名称"
+            ohos:text_color="$color:black"
+            ohos:text_size="16vp"/>
+
+        <Text
+            ohos:id="$+id:update_device_name_ok"
+            ohos:height="19vp"
+            ohos:width="28vp"
+            ohos:left_margin="126vp"
+            ohos:text="确定"
+            ohos:text_color="$color:blue"
+            ohos:text_size="14vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="48vp"
+        ohos:width="336vp"
+        ohos:alignment="vertical_center"
+        ohos:background_element="$graphic:background_ability_update_device_name"
+        ohos:left_margin="12vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="79vp">
+
+        <TextField
+            ohos:id="$+id:update_device_name_text"
+            ohos:height="22vp"
+            ohos:width="240vp"
+            ohos:left_margin="32vp"
+            ohos:text="老公的扫地机器人"
+            ohos:text_color="$color:black"
+            ohos:text_size="16vp"/>
+
+        <DirectionalLayout
+            ohos:id="$+id:update_device_name_delete"
+            ohos:height="match_parent"
+            ohos:width="100vp"
+            ohos:alignment="vertical_center">
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon_close_text"
+                ohos:left_margin="16vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

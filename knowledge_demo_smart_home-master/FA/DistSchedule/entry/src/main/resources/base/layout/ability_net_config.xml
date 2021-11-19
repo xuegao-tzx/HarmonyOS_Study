@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F1F3F5"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:net_img_back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="22vp"
+            ohos:right_margin="18vp"/>
+
+        <Text
+            ohos:id="$+id:net_text_network"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alpha="0.8"
+            ohos:text="网络设置"
+            ohos:text_size="18vp"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical">
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="vertical"
+        ohos:top_margin="2vp">
+
+        <TextField
+            ohos:id="$+id:net_tf_ssid"
+            ohos:height="36vp"
+            ohos:width="280vp"
+            ohos:basement="#F0F0F0"
+            ohos:text_size="16vp"
+            ohos:top_margin="211vp"/>
+
+        <TextField
+            ohos:id="$+id:net_tf_password"
+            ohos:height="30vp"
+            ohos:width="280vp"
+            ohos:basement="#F0F0F0"
+            ohos:text="12345678"
+            ohos:text_input_type="pattern_password"
+            ohos:text_size="16vp"
+            ohos:top_margin="20vp"/>
+
+        <Text
+            ohos:id="$+id:net_text_other_network"
+            ohos:height="48vp"
+            ohos:width="280vp"
+            ohos:text="使用其他无线网络"
+            ohos:text_color="$color:blue"
+            ohos:text_size="16vp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:net_button_ok"
+            ohos:height="40vp"
+            ohos:width="280vp"
+            ohos:background_element="$graphic:background_ability_login"
+            ohos:clickable="true"
+            ohos:text="确定"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"
+            ohos:top_margin="72vp"/>
+
+        <Button
+            ohos:id="$+id:net_button_cancel"
+            ohos:height="40vp"
+            ohos:width="280vp"
+            ohos:background_element="$graphic:background_ability_cancel"
+            ohos:text="取消"
+            ohos:text_color="$color:blue"
+            ohos:text_size="14vp"
+            ohos:top_margin="20vp"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

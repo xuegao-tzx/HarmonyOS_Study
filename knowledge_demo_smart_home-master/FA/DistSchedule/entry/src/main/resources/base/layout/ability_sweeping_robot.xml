@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:background_page"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:robot_img_left"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_back"
+            ohos:left_margin="25vp"
+            ohos:right_margin="15vp"/>
+
+        <Text
+            ohos:id="$+id:robot_text_name"
+            ohos:height="25vp"
+            ohos:width="226vp"
+            ohos:text="扫地机器人"
+            ohos:text_color="$color:black"
+            ohos:text_size="18vp"/>
+
+        <Image
+            ohos:id="$+id:robot_img_right"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_about"
+            ohos:left_margin="26vp"/>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:top_margin="8vp">
+
+                <Image
+                    ohos:id="$+id:robot_image_logo"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_robot"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="vertical_center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="32vp">
+
+                <Text
+                    ohos:id="$+id:robot_text_switch"
+                    ohos:height="match_content"
+                    ohos:width="216vp"
+                    ohos:left_margin="24vp"
+                    ohos:line_height_num="13.5vp"
+                    ohos:text="已关闭"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <Image
+                    ohos:id="$+id:robot_image_switch"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_switch_off"
+                    ohos:left_margin="12vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="88vp"
+                ohos:width="336vp"
+                ohos:alignment="center"
+                ohos:background_element="$graphic:background_white_rectangle_corners16"
+                ohos:left_margin="12vp"
+                ohos:orientation="horizontal"
+                ohos:top_margin="12vp">
+
+                <DirectionalLayout
+                    ohos:height="88vp"
+                    ohos:width="109.3vp"
+                    ohos:alignment="center"
+                    ohos:orientation="vertical">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="20"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="24vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.6"
+                            ohos:text="%"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="12vp"/>
+
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="剩余电量"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="match_parent"
+                    ohos:width="54.5vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_split_line">
+                    </Image>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="88vp"
+                    ohos:width="109.3vp"
+                    ohos:alignment="center"
+                    ohos:orientation="vertical">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="140"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="24vp"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alpha="0.6"
+                            ohos:text="ml"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:alpha="0.6"
+                        ohos:text="剩余水量"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="12vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:left_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:right_margin="12vp"
+                    ohos:top_margin="12vp">
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="88.4vp"
+                        ohos:alignment="vertical_center"
+                        ohos:orientation="vertical">
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="24vp"
+                            ohos:text="模式"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+                        <Text
+                            ohos:id="$+id:robot_text_mode"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="24vp"
+                            ohos:text="自由模式"
+                            ohos:text_color="$color:blue"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                    <Image
+                        ohos:id="$+id:robot_image_mode"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_free_selected"
+                        ohos:left_margin="32.6vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="12vp">
+
+                    <Text
+                        ohos:id="$+id:robot_text_sanitize"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="消毒"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+                    <Image
+                        ohos:id="$+id:robot_image_sanitize"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_sanitize_unselected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:left_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:right_margin="12vp"
+                    ohos:top_margin="12vp">
+
+
+                    <Text
+                        ohos:id="$+id:robot_text_timer"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="24vp"
+                        ohos:text="定时"
+                        ohos:text_color="$color:black"
+                        ohos:text_size="16vp"/>
+
+
+                    <Image
+                        ohos:id="$+id:robot_image_timer"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_timer_unselected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="64vp"
+                    ohos:width="162vp"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_white_rectangle_corners16"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="12vp">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content">
+
+                        <Text
+                            ohos:id="$+id:robot_text_scope"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="24vp"
+                            ohos:text="范围"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+                        <Text
+                            ohos:id="$+id:robot_text_position"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="24vp"
+                            ohos:text="客厅"
+                            ohos:text_color="$color:blue"
+                            ohos:text_size="12vp"/>
+                    </DirectionalLayout>
+
+                    <Image
+                        ohos:id="$+id:robot_image_appoint"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:icon_position_unselected"
+                        ohos:left_margin="56vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+
+            <DirectionalLayout
+                ohos:height="35vp"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="horizontal"
+                ohos:top_margin="8vp">
+
+                <Text
+                    ohos:id="$+id:robot_text_state"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:alpha="0.6"
+                    ohos:text="收起"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="16vp"/>
+
+                <Image
+                    ohos:id="$+id:robot_image_state"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon_tucked"
+                    ohos:left_margin="16vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_margin="16vp">
+
+                <Text
+                    ohos:id="$+id:robot_text_device"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:line_height_num="23.5vp"
+                    ohos:text="设备服务"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="18vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:bottom_margin="8vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="8vp">
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:left_margin="12vp"
+                        ohos:orientation="horizontal"
+                        ohos:right_margin="12vp"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:robot_text_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="更多产品"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+
+                        <Image
+                            ohos:id="$+id:robot_image_more"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_more_device"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:height="64vp"
+                        ohos:width="162vp"
+                        ohos:alignment="vertical_center"
+                        ohos:background_element="$graphic:background_white_rectangle_corners16"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="12vp">
+
+                        <Text
+                            ohos:id="$+id:robot_text_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="16vp"
+                            ohos:text="配件更换"
+                            ohos:text_color="$color:black"
+                            ohos:text_size="16vp"/>
+
+                        <Image
+                            ohos:id="$+id:robot_image_replace"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:image_src="$media:icon_replace"
+                            ohos:left_margin="37.2vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </ScrollView>
+</DirectionalLayout>

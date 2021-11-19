@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:add_contacts_container"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal"
+        ohos:top_margin="24vp">
+
+        <Image
+            ohos:id="$+id:add_contacts_dialog_cancel"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_not_ok"
+            ohos:left_margin="16vp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp"
+            ohos:text="新建联系人"
+            ohos:text_color="$color:black"
+            ohos:text_size="18vp"/>
+
+        <Image
+            ohos:id="$+id:add_contacts_dialog_ok"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_ok"
+            ohos:left_margin="150vp"/>
+    </DirectionalLayout>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alpha="0.9"
+        ohos:left_margin="16vp"
+        ohos:text="手表显示名称"
+        ohos:text_color="$color:black"
+        ohos:text_size="16vp"
+        ohos:top_margin="32vp"/>
+
+    <TextField
+        ohos:id="$+id:add_contacts_name"
+        ohos:height="40vp"
+        ohos:width="304vp"
+        ohos:alpha="0.8"
+        ohos:background_element="$graphic:background_textfield"
+        ohos:left_margin="16vp"
+        ohos:left_padding="20vp"
+        ohos:text="father"
+        ohos:text_alignment="vertical_center"
+        ohos:text_size="16vp"
+        ohos:top_margin="16vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alpha="0.9"
+        ohos:left_margin="16vp"
+        ohos:text="电话号码"
+        ohos:text_color="$color:black"
+        ohos:text_size="16vp"
+        ohos:top_margin="32vp"/>
+
+    <TextField
+        ohos:id="$+id:add_contacts_number"
+        ohos:height="40vp"
+        ohos:width="304vp"
+        ohos:alpha="0.8"
+        ohos:background_element="$graphic:background_textfield"
+        ohos:left_margin="16vp"
+        ohos:left_padding="20vp"
+        ohos:text=""
+        ohos:text_alignment="vertical_center"
+        ohos:text_size="16vp"
+        ohos:top_margin="16vp"/>
+
+</DirectionalLayout>

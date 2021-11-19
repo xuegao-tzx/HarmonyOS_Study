@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="$color:background_page"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="$color:white"
+        ohos:left_padding="24vp"
+        ohos:orientation="horizontal"
+        ohos:right_padding="24vp">
+
+        <Image
+            ohos:id="$+id:selectMember_img_back"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:icon_back"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="18vp"
+            ohos:text="选择成员"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+        <Image
+            ohos:id="$+id:selectMember_img_confirm"
+            ohos:height="24vp"
+            ohos:width="24vp"
+            ohos:image_src="$media:icon_ok"/>
+    </DirectionalLayout>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="332vp"
+        ohos:text="我的家庭（1）"
+        ohos:text_alignment="vertical_center"
+        ohos:text_color="$color:black"
+        ohos:text_size="14vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="332vp"
+        ohos:background_element="$graphic:background_card"
+        ohos:left_padding="16vp"
+        ohos:right_padding="16vp">
+
+        <DirectionalLayout
+            ohos:height="64vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:selectMember_text_familyName"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="家庭名字"
+                ohos:text_color="$color:black"
+                ohos:text_size="14vp"
+                ohos:weight="1"/>
+
+            <Text
+                ohos:id="$+id:selectMember_text_all"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:right_margin="18vp"
+                ohos:scale_mode="inside"
+                ohos:text="全选"
+                ohos:text_color="#0A59F7"
+                ohos:text_size="14vp"
+                ohos:vertical_center="true"/>
+        </DirectionalLayout>
+
+        <ListContainer
+            ohos:id="$+id:selectMember_lc_list"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_card"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

@@ -1,0 +1,24 @@
+{
+    "name": "@bearpi/bearpi_hi3861_sdk",
+    "version": "1.1.3",
+    "publishAs": "code-segment",
+    "description": "Hi3861 chip driver software, including license files, compilation scripts, configuration files, driver implementation, and tools | Hi3861芯片驱动软件，包含LICENSE、编译脚本、配置文件、驱动实现、工具等",
+    "scripts": {
+        "install": "DEST_PATH=$DEP_BUNDLE_BASE/device/bearpi/bearpi_hm_nano && mkdir -p $DEST_PATH && cp -r . $DEST_PATH"
+    },
+    "repository": "https://gitee.com/openharmony",
+    "tags": [
+        "device"
+    ],
+    "ohos": {
+        "os": "1.1.0",
+        "kernel": "liteos_m",
+        "board": "bearpi_hm_nano"
+    },
+    "license": "Apache V2, BSD3, BSD2, BSD , GPLv2, MIT, Public Domain,Eclipse Public License(EPL) V1.0",
+    "keywords": [
+        "device",
+        "hi3861sdk",
+        "bearpi"
+    ]
+}

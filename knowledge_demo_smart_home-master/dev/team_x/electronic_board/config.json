@@ -1,0 +1,170 @@
+{
+    "product_name": "electronic_board",
+    "ohos_version": "OpenHarmony 1.0",
+    "device_company": "hisilicon",
+    "board": "hispark_taurus",
+    "kernel_type": "liteos_a",
+    "kernel_version": "",
+    "subsystems": [
+      {
+        "subsystem": "aafwk",
+        "components": [
+          { "component": "ability", "features":[ "enable_ohos_appexecfwk_feature_ability = true" ] }
+        ]
+      },
+      {
+        "subsystem": "applications",
+        "components": [
+          { "component": "camera_sample_app", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "hiviewdfx",
+        "components": [
+          { "component": "hilog", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "distributed_schedule",
+        "components": [
+          { "component": "system_ability_manager", "features":[] },
+          { "component": "foundation", "features":[] },
+          { "component": "distributed_schedule", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "security",
+        "components": [
+          { "component": "hichainsdk", "features":[] },
+          { "component": "permission", "features":[] },
+          { "component": "app_verify", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "multimedia",
+        "components": [
+          { "component": "media_service", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "graphic",
+        "components": [
+          { "component": "graphic_utils", "features":[] },
+          { "component": "graphic_hals", "features":[] },
+          { "component": "ui", "features":[ "enable_graphic_font = true" ] },
+          { "component": "surface", "features":[] },
+          { "component": "wms", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "sensors",
+        "components": [
+          { "component": "sensor_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "startup",
+        "components": [
+          { "component": "syspara", "features":[] },
+          { "component": "bootstrap", "features":[] },
+          { "component": "init", "features":[] },
+          { "component": "appspawn", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "kernel",
+        "components": [
+          { "component": "liteos_a", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "communication",
+        "components": [
+          { "component": "ipc", "features":[] },
+          { "component": "soft_bus", "features":[] },
+          { "component": "wpa_supplicant", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "ace",
+        "components": [
+          { "component": "ace_engine_lite", "features":[ "" ] }
+        ]
+      },
+      {
+        "subsystem": "drivers",
+        "components": [
+          { "component": "drivers_framework", "features":[] },
+          { "component": "adapter_uhdf", "features":[] },
+          { "component": "peripheral_display", "features":[] },
+          { "component": "peripheral_input", "features":[] },
+          { "component": "peripheral_sensor", "features":[] },
+          { "component": "peripheral_wlan", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "appexecfwk",
+        "components": [
+          { "component": "bundle_mgr", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "global",
+        "components": [
+          { "component": "global_resource_manager", "features":[] },
+          { "component": "global_i18n_kits", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "vendor",
+        "components": [
+          { "component": "hi3516dv300_init", "features":[] },
+          { "component": "hardware", "features":[] },
+          { "component": "middleware", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "test",
+        "components": [
+          { "component": "developer_test", "features":[] },
+          { "component": "xts_acts", "features":[] },
+          { "component": "xts_tools", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "utils",
+        "components": [
+          { "component": "kv_store", "features":[] },
+          { "component": "os_dump", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "ai",
+        "components": [
+          { "component": "ai_engine", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "pms",
+        "components": [
+          { "component": "powermanageservice", "features":[ "enable_screensaver = true" ] }
+        ]
+      }
+    ],
+    "vendor_adapter_dir": "//device/hisilicon/hardware",
+    "third_party_dir": "//third_party",
+    "product_adapter_dir": "//vendor/team_x/electronic_board/hals",
+    "ohos_product_type":"",
+    "ohos_manufacture":"",
+    "ohos_brand":"",
+    "ohos_market_name":"",
+    "ohos_product_series":"",
+    "ohos_product_model":"",
+    "ohos_software_model":"",
+    "ohos_hardware_model":"",
+    "ohos_hardware_profile":"",
+    "ohos_serial":"",
+    "ohos_bootloader_version":"",
+    "ohos_secure_patch_level":"",
+    "ohos_abi_list":""
+  }

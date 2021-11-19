@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F7F7F7"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="$graphic:background_card"
+        ohos:orientation="horizontal"
+        ohos:right_padding="24vp">
+
+        <DependentLayout
+            ohos:id="$+id:personalinfor_dl_back"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:alignment="center">
+
+            <Image
+                ohos:id="$+id:personalinfor_img_back"
+                ohos:height="24vp"
+                ohos:width="24vp"
+                ohos:image_src="$media:icon_back"
+                ohos:left_margin="24vp"
+                ohos:right_margin="18vp"/>
+        </DependentLayout>
+
+        <Text
+            ohos:id="$+id:top_text_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="个人资料"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_card"
+        ohos:left_margin="16vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="16vp"
+        ohos:top_margin="24vp"
+        ohos:top_padding="10vp">
+
+        <!--    头像-->
+        <DirectionalLayout
+            ohos:id="$+id:personalinfor_dl_icon"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="头像"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+
+            <Image
+                ohos:id="$+id:user_header"
+                ohos:height="46vp"
+                ohos:width="46vp"
+                ohos:image_src="$media:img_touxiang_papa"
+                ohos:scale_mode="stretch"
+                />
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <!--    我的账户名称-->
+        <DirectionalLayout
+            ohos:id="$+id:personalinfor_dl_account"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="我的账户名称"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+            <Text
+                ohos:id="$+id:personalInfo_text_name"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="130xxxxxxxx"
+                ohos:text_size="14fp"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+        <!--    我的二维码-->
+        <DirectionalLayout
+            ohos:id="$+id:personalinfor_dl_qrcode"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$graphic:background_card"
+            ohos:bottom_margin="15vp"
+            ohos:left_padding="16vp"
+            ohos:orientation="horizontal"
+            ohos:right_padding="16vp">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="我的二维码"
+                ohos:text_size="14fp"
+                ohos:weight="1"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_qr_code"/>
+
+            <Image
+                ohos:height="16vp"
+                ohos:width="16vp"
+                ohos:image_src="$media:icon_main_right"
+                ohos:left_margin="4vp"/>
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+
+
+    <Button
+        ohos:id="$+id:personalinfor_bt_loginout"
+        ohos:height="48vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_card"
+        ohos:bottom_margin="24vp"
+        ohos:left_margin="16vp"
+        ohos:right_margin="16vp"
+        ohos:text="注销登录"
+        ohos:text_color="$color:col_e84026"
+        ohos:text_size="14fp"
+        ohos:top_margin="8vp"/>
+
+
+</DirectionalLayout>

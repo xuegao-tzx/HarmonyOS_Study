@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:custom_container"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:orientation="vertical">
+
+
+    <Text
+        ohos:id="$+id:delete_name"
+        ohos:height="22vp"
+        ohos:width="288vp"
+        ohos:alpha="0.9"
+        ohos:clickable="true"
+        ohos:text="确定删除紧急联系人"
+        ohos:text_alignment="start"
+        ohos:text_color="$color:black"
+        ohos:text_size="16vp"
+        ohos:top_margin="24vp"/>
+
+    <Text
+        ohos:height="22vp"
+        ohos:width="288vp"
+        ohos:alpha="0.6"
+        ohos:clickable="true"
+        ohos:text="删除后儿童手表将无法一键联系至该号码"
+        ohos:text_alignment="start"
+        ohos:text_color="$color:black"
+        ohos:text_size="14vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal"
+        ohos:top_margin="27vp">
+
+        <Button
+            ohos:id="$+id:delete_cancel"
+            ohos:height="22vp"
+            ohos:width="136vp"
+            ohos:clickable="true"
+            ohos:text="取消"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:blue"
+            ohos:text_size="16vp"/>
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="16vp"
+            ohos:image_src="$media:icon_split_line"/>
+
+        <Button
+            ohos:id="$+id:delete_ok"
+            ohos:height="22vp"
+            ohos:width="136vp"
+            ohos:clickable="true"
+            ohos:text="删除"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:blue"
+            ohos:text_size="16vp"/>
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

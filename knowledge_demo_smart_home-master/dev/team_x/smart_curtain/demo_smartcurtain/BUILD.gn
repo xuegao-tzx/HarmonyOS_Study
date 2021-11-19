@@ -1,0 +1,40 @@
+# Copyright (c) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+static_library("smart_curtain") {
+    sources = [
+        "iot_main.c",
+        "iot_profile.c",
+    ]
+    
+    cflags = [ "-Wno-unused-variable" ]
+    cflags += [ "-Wno-unused-but-set-variable" ]
+    cflags += [ "-Wno-unused-parameter" ]
+    
+    include_dirs = [
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//third_party/cJSON",
+        "../../common/inc",
+    ]
+
+    deps = [
+         "../../common/iot_sntp:iot_sntp",
+         "../../common/iot_wifi:iot_wifi",
+         "../../common/iot_schedule:iot_schedule",
+         "../../common/iot_nfc:iot_nfc",
+         "../../common/iot_cloud:iot_cloud",
+         "../../common/iot_boardled:iot_boardled",
+         "../../common/iot_boardbutton:iot_boardbutton",
+    ]
+
+}
