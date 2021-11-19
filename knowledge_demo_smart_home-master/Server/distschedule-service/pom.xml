@@ -13,7 +13,7 @@
     <description>服务模块，该模块主要负责对业务逻辑的处理</description>
 
     <properties>
-        <jackson.version>2.10.4</jackson.version>
+        <jackson.version>2.10.5.1</jackson.version>
     </properties>
 
     <dependencies>
