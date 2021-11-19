@@ -1,6 +1,14 @@
 
 ^
 .entry/src/main/js/widget/pages/index/index.hml,b\e\beb0b7e2701e5460f85ab3689f01bb45f5243016
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+J
+entry/src/main/config.json,1\0\10f965cf51fe14a5ef0ca2ebefb1bd7e4607eeb2
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+B
+entry/build.gradle,a\d\ad38b2dea33752cac233aa09d7dfbe582e9dded6
 j
 :entry/src/main/java/com/example/starbucks/MainAbility.java,2\4\24c1e263812d143777a87cd4de5807d3a8177925
 
@@ -21,11 +29,3 @@ Z
 *entry/src/main/ets/default/pages/index.ets,7\f\7f7cc7c9e317933376e78ae696bbfd1eb4dbe2f8
 _
 /entry/src/main/ets/default/pages/sizeOption.ets,b\0\b0d23126943b6a2cb947f102b025a036d312ed15
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-J
-entry/src/main/config.json,1\0\10f965cf51fe14a5ef0ca2ebefb1bd7e4607eeb2
-\
-,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
-B
-entry/build.gradle,a\d\ad38b2dea33752cac233aa09d7dfbe582e9dded6

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: retrofitcachelib-1.0.0-beta2@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2b683c393794436fe832c3a95d0bacb/retrofitcachelib-1.0.0-beta2/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2b683c393794436fe832c3a95d0bacb/retrofitcachelib-1.0.0-beta2/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2b683c393794436fe832c3a95d0bacb/retrofitcachelib-1.0.0-beta2/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
