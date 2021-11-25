@@ -1,0 +1,23 @@
+{
+    "name": "@hihope/paho_mqtt_embedded_c",
+    "version": "0.1.0",
+    "description": "paho.mqtt.embedded-c for HarmonyOS",
+    "publishAs": "code-segment",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/paho.mqtt.embedded-c && mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "mqtt"
+    ],
+    "repository": "https://gitee.com/hihopeorg/paho.mqtt.embedded-c",
+    "homepage": "https://gitee.com/hihopeorg",
+    "license": "Eclipse Public License",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

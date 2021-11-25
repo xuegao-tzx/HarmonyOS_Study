@@ -1,0 +1,74 @@
+# Copyright (c) Huawei Technologies Co., Ltd. 2021-2021. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#
+# 1. Redistributions of source code must retain the above copyright notice, this
+#    list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+#    this list of conditions and the following disclaimer in the documentation
+#    and/or other materials provided with the distribution.
+#
+# 3. Neither the name of the copyright holder nor the names of its
+#    contributors may be used to endorse or promote products derived from
+#    this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+# FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+# SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+# OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ohos_sources = [
+    "MQTTClient.c"
+]
+
+ohos_defines = [
+    "MQTT_TASK",
+    "MQTTCLIENT_PLATFORM_HEADER=mqtt_ohos.h"
+]
+
+ohos_includes = [
+    "ohos",
+    "../../MQTTPacket/src"
+]
+
+if (ohos_kernel_type == "liteos_riscv" || ohos_kernel_type == "liteos_m") {
+    ohos_sources += [
+        "ohos/mqtt_ohos_cmsis.c"
+    ]
+    ohos_defines += [
+        "OHOS_CMSIS",
+    ]
+    ohos_includes += [
+        "//kernel/liteos_m/kal",
+        "//vendor/hisi/hi3861/hi3861/third_party/lwip_sack/include"
+    ]
+} else {
+    ohos_sources += [
+        "linux/MQTTLinux.c",
+        "ohos/mqtt_ohos_posix.c"
+    ]
+    ohos_defines += [
+        "_GNU_SOURCE",
+    ]
+}
+
+static_library("paho-embed-mqtt3cc") {
+    sources = ohos_sources
+
+    defines = ohos_defines
+
+    cflags = [
+        "-Wno-sign-compare",
+        "-Wno-unused-parameter",
+    ]
+
+    include_dirs = ohos_includes
+}
