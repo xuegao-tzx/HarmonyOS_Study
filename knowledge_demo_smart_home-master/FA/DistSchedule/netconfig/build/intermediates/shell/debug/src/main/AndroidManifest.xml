@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:tools="http://schemas.android.com/tools" package="com.example.distschedule" android:versionCode="1000000" android:versionName="1.0.0" android:isFeatureSplit="true" split="netconfig">
+    
+  <uses-feature android:name="zidane.software.ability" android:required="false"/>
+    
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29"/>
+    
+  <uses-permission android:name="com.huawei.hilink.framework.permission.BIND_AI_LIFE_CORE_SERVICE"/>
+    
+  <application android:usesCleartextTraffic="false" android:directBootAware="false" android:allowBackup="false" android:name="com.example.netconfig.ShellMyApplication" android:persistent="false">
+        
+    <meta-data android:value="true" android:name="permZA"/>
+        
+    <activity android:icon="@drawable/icon" android:windowSoftInputMode="adjustResize" android:label="@string/netconfig_MainAbility" android:name="com.example.netconfig.MainAbilityShellActivity" android:launchMode="standard" android:exported="true"/>
+        
+    <service android:icon="@drawable/aa_icon" android:label="NetConfigAbility" android:description="@string/ability_description" android:name="com.huawei.ailifeability.NetConfigAbilityShellService" android:exported="true"/>
+        
+    <service android:icon="@drawable/aa_icon" android:label="DeviceMgrAbility" android:description="@string/devicemgr_ability_description" android:name="com.huawei.ailifeability.DeviceMgrAbilityShellService" android:exported="true"/>
+        
+    <meta-data android:value="androidhwext:style/Theme.Emui.NoTitleBar" android:name="hwc-theme"/>
+      
+  </application>
+    
+  <dist:delivery>
+        
+    <dist:install-time/>
+      
+  </dist:delivery>
+  
+</manifest>

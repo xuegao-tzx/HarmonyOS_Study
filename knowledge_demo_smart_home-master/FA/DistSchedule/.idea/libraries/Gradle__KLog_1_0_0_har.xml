@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: KLog-1.0.0@har">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/029720897ab3904fafdb5cb968c00c03/KLog-1.0.0/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/029720897ab3904fafdb5cb968c00c03/KLog-1.0.0/resources" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/029720897ab3904fafdb5cb968c00c03/KLog-1.0.0/config.json" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83e7ca05a6d574629376b2322f81fa08/KLog-1.0.0/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83e7ca05a6d574629376b2322f81fa08/KLog-1.0.0/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83e7ca05a6d574629376b2322f81fa08/KLog-1.0.0/config.json" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

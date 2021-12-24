@@ -23,37 +23,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffdaddc0-44a1-4afd-b63c-3b8b1eeb837d" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/modules/CarParkTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarParkTest/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Contacts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/1/6/1679813b875a9ab7ab3adb30aa2d372865680b88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/1/8/184bed7be51cafc8b6d7623e009512794ca48243" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/2/4/24c1e263812d143777a87cd4de5807d3a8177925" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/2/f/2f65bce71521ba89c8d78da50af7655dc13fa482" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/7/5/75d8ba64ab99ad8bb55b026d8b2ff043db88f8ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/7/f/7f7cc7c9e317933376e78ae696bbfd1eb4dbe2f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/9/8/9852445df4055dfa28172f4c0ff06b5f8b61c7ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/b/0/b0d23126943b6a2cb947f102b025a036d312ed15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/b/6/b6750d9bdd6ccdd12ae070eea36b2427aecae38b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/d/7/d77cdca7276233d104244446a722b5ff26e214d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HO_soft/Starbucks/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CarParkTest/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/previewer/liteWearable/liteWearableSettingConfig_rd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/previewer/previewConfigV2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/0/3/037eb38d22a90ee435a04f5160df2347025c27e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/1/0/10f965cf51fe14a5ef0ca2ebefb1bd7e4607eeb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/1/a/1a0bfe7a027837ed647b6bd5b6e2500c8555362e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/3/6/36d48c2c0aa8cb6b91428b9d2d791dcae782d636" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/5/3/53c2f15f1da3e1de172f90feee9cf4143c3029f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/a/d/ad38b2dea33752cac233aa09d7dfbe582e9dded6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/b/4/b4c4e536f4084a0b6a45f8b0d2725567135b92e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/b/d/bded84c8d7c3dc43c805144b684b7e76d317f963" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/e/b/eb4272ef57a8e412e241acf56c46fd3c2ccd3848" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/f/0/f0a6d47efb29aae09031985f74d3e6850f8e5432" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/js/default/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/js/default/i18n/en-US.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/js/default/i18n/zh-CN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/js/default/pages/index/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/js/default/pages/index/index.hml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/js/default/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/resources/base/media/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/entry/src/main/resources/base/media/icon_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HO_soft/2048/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/.idea/modules/entry/entry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/.idea/modules/entry/entry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarParkTest/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CarParkTest/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ACProgressLite_1_0_0_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ACProgressLite_1_0_0_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__KLog_1_0_0_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__KLog_1_0_0_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__PagerBottomTabStrip_1_0_1_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__PagerBottomTabStrip_1_0_1_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ToggleButtonGroup_1_0_1_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ToggleButtonGroup_1_0_1_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ailifeability_1_0_0_1_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ailifeability_1_0_0_1_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ohosSwipeLayout_1_0_0_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ohosSwipeLayout_1_0_0_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ormlite_ohos_1_0_1_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__ormlite_ohos_1_0_1_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__retrofitcachelib_1_0_0_beta2_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__retrofitcachelib_1_0_0_beta2_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__retrofitcachelibrx2_1_0_0_beta2_har.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/libraries/Gradle__retrofitcachelibrx2_1_0_0_beta2_har.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/modules/entry/entry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/modules/entry/entry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/.idea/modules/netconfig/netconfig.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/.idea/modules/netconfig/netconfig.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistSchedule/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DistSchedule/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +130,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="217ygpiffiagZdMyLHy1vYpMZE4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="新增" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -91,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DistSchedule" />
     <property name="project.ide.version" value="3.0.0.601" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,8 +162,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1640333542182">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/0.1080.1536.816@0.0.1536.816" timestamp="1640333542182" />
   </component>
 </project>

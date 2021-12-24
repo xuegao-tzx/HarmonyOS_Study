@@ -1,0 +1,93 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "com.xclgj.distschedule",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "mainAbility": "com.example.distschedule.MainAbility",
+                "deviceType": [
+                    "phone"
+                ],
+                "abilities": [
+                    {
+                        "name": "com.example.distschedule.MainAbility",
+                        "label": "$string:entry_MainAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.LoginAbility",
+                        "label": "$string:entry_MainAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.AddDeviceAbility",
+                        "label": "$string:entry_AddDeviceAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.DeviceControlAbility",
+                        "label": "$string:entry_LampAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.UpdateDeviceNameAbility",
+                        "label": "$string:entry_UpdateDeviceNameAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.FamilyAbility",
+                        "label": "$string:entry_FamilyAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.ScheduleManageAbility",
+                        "label": "$string:entry_ScheduleManageAbility"
+                    },
+                    {
+                        "visible": true,
+                        "name": "com.example.distschedule.ServiceAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.ScanAbility",
+                        "label": "$string:entry_ScanAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.ImageSelectorAbility",
+                        "label": "$string:entry_ImageSelectorActivity"
+                    },
+                    {
+                        "name": "com.example.distschedule.TakePhotoAbility",
+                        "label": "$string:entry_TakePhotoAbility"
+                    },
+                    {
+                        "name": "com.example.distschedule.LargeAbility",
+                        "label": "$string:entry_LargeAbility"
+                    },
+                    {
+                        "name": "com.huawei.agconnect.core.ServiceDiscovery"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": false,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 6,
+                    "releaseType": "Beta1",
+                    "target": 7
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 6,
+            "releaseType": "Beta1",
+            "target": 7
+        },
+        "vendor": "example",
+        "bundleName": "com.xclgj.distschedule",
+        "type": "normal",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "network": {
+                "cleartextTraffic": true
+            }
+        }
+    },
+    "module": {
+        "deviceType": [
+            "phone"
+        ],
+        "abilities": [
+            {
+                "orientation": "portrait",
+                "name": "com.example.distschedule.MainAbility",
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.LoginAbility",
+                "icon": "$media:icon",
+                "description": "$string:loginability_description",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": true
+            },
+            {
+                "skills": [
+                    {
+                        "actions": [
+                            "action.alarm"
+                        ]
+                    }
+                ],
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.AddDeviceAbility",
+                "icon": "$media:icon",
+                "description": "$string:adddeviceability_description",
+                "label": "$string:entry_AddDeviceAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "skills": [
+                    {
+                        "actions": [
+                            "action.watering",
+                            "action.sweepingRobot",
+                            "action.curtain",
+                            "action.fan",
+                            "action.childrenWatch",
+                            "action.trashCan",
+                            "action.smokeDetector",
+                            "action.formaldehyde",
+                            "action.flammableGas"
+                        ]
+                    }
+                ],
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.DeviceControlAbility",
+                "icon": "$media:icon",
+                "description": "$string:lampability_description",
+                "label": "$string:entry_LampAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.UpdateDeviceNameAbility",
+                "icon": "$media:icon",
+                "description": "$string:updateDeviceNameAbility_description",
+                "label": "$string:entry_UpdateDeviceNameAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.FamilyAbility",
+                "icon": "$media:icon",
+                "description": "$string:familyability_description",
+                "label": "$string:entry_FamilyAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "skills": [
+                    {
+                        "actions": [
+                            "action.selectDevice",
+                            "action.selectMember"
+                        ]
+                    }
+                ],
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.ScheduleManageAbility",
+                "icon": "$media:icon",
+                "description": "$string:schedulemanageability_description",
+                "label": "$string:entry_ScheduleManageAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "visible": true,
+                "backgroundModes": [
+                    "dataTransfer",
+                    "location"
+                ],
+                "name": "com.example.distschedule.ServiceAbility",
+                "icon": "$media:icon",
+                "description": "$string:serviceability_description",
+                "type": "service",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.ScanAbility",
+                "icon": "$media:icon",
+                "description": "$string:scanability_description",
+                "label": "$string:entry_ScanAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.ImageSelectorAbility",
+                "icon": "$media:icon",
+                "description": "$string:imageselectoractivity_description",
+                "label": "$string:entry_ImageSelectorActivity",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.TakePhotoAbility",
+                "icon": "$media:icon",
+                "description": "$string:takephotoability_description",
+                "label": "$string:entry_TakePhotoAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "name": "com.example.distschedule.LargeAbility",
+                "icon": "$media:icon",
+                "description": "$string:largeability_description",
+                "label": "$string:entry_LargeAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "name": "com.huawei.agconnect.core.ServiceDiscovery",
+                "type": "service",
+                "homeAbility": false
+            }
+        ],
+        "mainAbility": "com.example.distschedule.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "metaData": {
+            "customizeData": [
+                {
+                    "extra": "",
+                    "name": "hwc-theme",
+                    "value": "androidhwext:style/Theme.Emui.NoTitleBar"
+                }
+            ]
+        },
+        "package": "com.example.distschedule",
+        "name": ".MyApplication",
+        "reqPermissions": [
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.GET_WIFI_INFO"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.SET_WIFI_INFO"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.GET_BUNDLE_INFO"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.LOCATION"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility",
+                        "com.example.distschedule.ServiceAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.PUBLISH_AGENT_REMINDER"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.CAMERA"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.READ_MEDIA"
+            },
+            {
+                "name": "ohos.permission.WRITE_USER_STORAGE"
+            },
+            {
+                "reason": "test",
+                "usedScene": {
+                    "ability": [
+                        "com.example.distschedule.MainAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.INTERNET"
+            },
+            {
+                "name": "ohos.permission.SET_NETWORK_INFO"
+            },
+            {
+                "name": "ohos.permission.GET_NETWORK_INFO"
+            }
+        ]
+    }
+}

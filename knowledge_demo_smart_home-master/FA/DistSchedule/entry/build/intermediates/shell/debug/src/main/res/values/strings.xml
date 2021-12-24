@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <string name="adddeviceability_description">"Java_Empty Ability"</string>
+  <string name="entry_AddDeviceAbility">"entry_AddDeviceAbility"</string>
+  <string name="entry_FamilyAbility">"entry_FamilyAbility"</string>
+  <string name="entry_ImageSelectorActivity">"entry_ImageSelectorActivity"</string>
+  <string name="entry_LampAbility">"智能台灯"</string>
+  <string name="entry_LargeAbility">"entry_LargeAbility"</string>
+  <string name="entry_MainAbility">"数字管家"</string>
+  <string name="entry_ScanAbility">"entry_ScanAbility"</string>
+  <string name="entry_ScheduleManageAbility">"entry_ScheduleManageAbility"</string>
+  <string name="entry_TakePhotoAbility">"entry_TakePhotoAbility"</string>
+  <string name="entry_UpdateDeviceNameAbility">"entry_UpdateDeviceNameAbility"</string>
+  <string name="familyability_description">"Java_Empty Ability"</string>
+  <string name="imageselectoractivity_description">"Java_Empty Ability"</string>
+  <string name="lampability_description">"智能台灯"</string>
+  <string name="largeability_description">"Java_Empty Ability"</string>
+  <string name="loginability_description">"Java_Empty Ability"</string>
+  <string name="mainability_description">"Java_Empty Ability"</string>
+  <string name="scanability_description">"Java_Empty Ability"</string>
+  <string name="schedulemanageability_description">"Java_Empty Ability"</string>
+  <string name="serviceability_description">"hap sample empty service"</string>
+  <string name="takephotoability_description">"Java_Empty Ability"</string>
+  <string name="updateDeviceNameAbility_description">"Java_Empty Ability"</string>
+</resources>

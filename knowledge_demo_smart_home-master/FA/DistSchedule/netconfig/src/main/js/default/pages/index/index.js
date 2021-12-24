@@ -219,7 +219,7 @@ export default {
     goToControl() {
         this.disconnectDevice();
         let target = {
-            bundleName: 'com.example.distschedule',
+            bundleName: 'com.xclgj.distschedule',
             abilityName: 'com.example.distschedule.AddDeviceAbility',
             deviceType: 1,
             data: {

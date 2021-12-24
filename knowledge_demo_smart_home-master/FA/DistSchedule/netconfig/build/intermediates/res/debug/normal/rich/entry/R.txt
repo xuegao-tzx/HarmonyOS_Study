@@ -1,0 +1,10 @@
+media aa_icon 0x3000006
+media application_icon 0x3000007
+media icon 0x3000008
+media icon_entry 0x3000009
+string ability_description 0x3000000
+string app_name 0x3000001
+string devicemgr_ability_description 0x3000002
+string entry_MainAbility_entry 0x3000003
+string mainability_description 0x3000004
+string netconfig_MainAbility 0x3000005

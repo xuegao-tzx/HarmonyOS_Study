@@ -2,9 +2,20 @@ apply plugin: 'com.huawei.ohos.hap'
 apply plugin: 'com.huawei.ohos.decctest'
 //For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
 ohos {
-    compileSdkVersion 6
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p12')
+            storePassword '00000018E64E9B45AE2FAF71A0D565B1D3921DE5B9F6103DF31C341AF589B915A3BA94179CAD916A'
+            keyAlias = 'debugKey'
+            keyPassword '0000001810573F9075E6B017A0C2BB6700DB06C019198DCF160693ADEB23FB64C8A2DCF9A7FFCED3'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p7b')
+            certpath file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.cer')
+        }
+    }
+    compileSdkVersion 7
     defaultConfig {
-        compatibleSdkVersion 5
+        compatibleSdkVersion 6
     }
     buildTypes {
         release {
@@ -22,7 +33,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
     // hilink
     implementation(group: 'com.huawei.hilink', name: 'ailifeability', version: '1.0.0.1', ext: 'har')
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
 }
 decc {
     supportType = ['html', 'xml']
 }
+apply plugin: 'com.huawei.agconnect'

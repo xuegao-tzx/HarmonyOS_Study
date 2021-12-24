@@ -1,0 +1,121 @@
+{
+    "app": {
+        "iconId": 50331657,
+        "apiVersion": {
+            "compatible": 5,
+            "releaseType": "Release",
+            "target": 6
+        },
+        "labelId": 50331651,
+        "vendor": "example",
+        "icon": "$media:icon_entry",
+        "bundleName": "com.example.distschedule",
+        "label": "$string:entry_MainAbility_entry",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 50331656,
+                "descriptionId": 50331652,
+                "visible": true,
+                "labelId": 50331653,
+                "icon": "$media:icon",
+                "name": "com.example.netconfig.MainAbility",
+                "description": "$string:mainability_description",
+                "label": "$string:netconfig_MainAbility",
+                "type": "page",
+                "homeAbility": false,
+                "launchType": "standard"
+            },
+            {
+                "iconId": 50331654,
+                "skills": [
+                    
+                ],
+                "descriptionId": 50331648,
+                "visible": true,
+                "permissions": [
+                    
+                ],
+                "icon": "$media:aa_icon",
+                "name": "com.huawei.ailifeability.NetConfigAbility",
+                "description": "$string:ability_description",
+                "label": "NetConfigAbility",
+                "type": "service",
+                "homeAbility": false
+            },
+            {
+                "iconId": 50331654,
+                "skills": [
+                    
+                ],
+                "descriptionId": 50331650,
+                "visible": true,
+                "permissions": [
+                    
+                ],
+                "icon": "$media:aa_icon",
+                "name": "com.huawei.ailifeability.DeviceMgrAbility",
+                "description": "$string:devicemgr_ability_description",
+                "label": "DeviceMgrAbility",
+                "type": "service",
+                "homeAbility": false
+            }
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "mainAbility": "com.example.netconfig.MainAbility",
+        "distro": {
+            "moduleType": "feature",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "netconfig"
+        },
+        "metaData": {
+            "customizeData": [
+                {
+                    "extra": "",
+                    "name": "hwc-theme",
+                    "value": "androidhwext:style/Theme.Emui.NoTitleBar"
+                }
+            ]
+        },
+        "package": "com.example.netconfig",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "default",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                }
+            }
+        ],
+        "reqPermissions": [
+            {
+                "reason": "",
+                "usedScene": {
+                    "ability": [
+                        "com.huawei.ailifeability.NetConfigAbility",
+                        "com.huawei.ailifeability.DeviceMgrAbility"
+                    ],
+                    "when": "inuse"
+                },
+                "name": "com.huawei.hilink.framework.permission.BIND_AI_LIFE_CORE_SERVICE"
+            }
+        ]
+    }
+}

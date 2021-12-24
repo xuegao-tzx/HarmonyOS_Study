@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: ailifeability-1.0.0.1@har">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75869a9cebc8605f6df545ccb60d959c/ailifeability-1.0.0.1/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75869a9cebc8605f6df545ccb60d959c/ailifeability-1.0.0.1/resources" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75869a9cebc8605f6df545ccb60d959c/ailifeability-1.0.0.1/config.json" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75869a9cebc8605f6df545ccb60d959c/ailifeability-1.0.0.1/libs/interwork_java.interface.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07fb555e1db841f4d39cd9b1564e9770/ailifeability-1.0.0.1/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07fb555e1db841f4d39cd9b1564e9770/ailifeability-1.0.0.1/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07fb555e1db841f4d39cd9b1564e9770/ailifeability-1.0.0.1/config.json" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07fb555e1db841f4d39cd9b1564e9770/ailifeability-1.0.0.1/libs/interwork_java.interface.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

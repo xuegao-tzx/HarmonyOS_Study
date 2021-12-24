@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ability_description">"network config ability"</string>
+  <string name="devicemgr_ability_description">"device manager ability"</string>
+  <string name="entry_MainAbility_entry">"数字管家"</string>
+  <string name="mainability_description">"JS_Empty Ability"</string>
+  <string name="netconfig_MainAbility">"netconfig_MainAbility"</string>
+</resources>

@@ -14,14 +14,6 @@
         <option name="BUILDABLE" value="false" />
       </configuration>
     </facet>
-    <facet type="ohos" name="Ohos">
-      <configuration>
-        <option name="configurationProperty" value="This is option under configuration" />
-        <option name="gradleProjectPath" value=":entry" />
-        <option name="moduleExternalName" value="entry" />
-        <option name="moduleName" value="entry" />
-      </configuration>
-    </facet>
     <facet type="harmony" name="harmony">
       <configuration>
         <option name="SELECTED_BUILD_VARIANT" value="debug" />
@@ -31,14 +23,22 @@
         <option name="OHOS_TEST_RESOURCES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../entry/src/ohosTest/resources;file://$MODULE_DIR$/../../../entry/src/debugOhosTest/resources" />
         <option name="MODULE_TYPE" value="entry" />
         <option name="DEBUGGABLE" value="true" />
-        <option name="HAP_OUTPUT_FOLDER_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\build\outputs\hap\debug" />
+        <option name="HAP_OUTPUT_FOLDER_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\build\outputs\hap\debug" />
         <option name="PREVIEW_EXECUTE_TASK_NAME" value="generateDebugJsManifest" />
-        <option name="JS_MANIFEST_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\build\intermediates\js\debug\jsManifest" />
-        <option name="SUPERVISUAL_SOURCE_DIR_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\src\main\supervisual" />
-        <option name="JS_SOURCE_DIR_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\src\main\js" />
-        <option name="ETS_SOURCE_DIR_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\src\main\ets" />
+        <option name="JS_MANIFEST_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\build\intermediates\js\debug\jsManifest" />
+        <option name="SUPERVISUAL_SOURCE_DIR_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\src\main\supervisual" />
+        <option name="JS_SOURCE_DIR_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\src\main\js" />
+        <option name="ETS_SOURCE_DIR_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\CarParkTest\entry\src\main\ets" />
         <option name="MERGE_JS_SRC" value="false" />
         <option name="COMPILE_MODE_TYPE" value="d8" />
+      </configuration>
+    </facet>
+    <facet type="ohos" name="Ohos">
+      <configuration>
+        <option name="configurationProperty" value="This is option under configuration" />
+        <option name="gradleProjectPath" value=":entry" />
+        <option name="moduleExternalName" value="entry" />
+        <option name="moduleName" value="entry" />
       </configuration>
     </facet>
   </component>

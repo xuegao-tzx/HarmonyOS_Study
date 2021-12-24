@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.xclgj.distschedule" android:versionCode="1000000" android:versionName="1.0.0">  
+  <uses-feature android:name="zidane.software.ability" android:required="false"/>  
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29"/>  
+  <uses-permission android:name="ohos.permission.GET_WIFI_INFO"/>  
+  <uses-permission android:name="ohos.permission.SET_WIFI_INFO"/>  
+  <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO"/>  
+  <uses-permission android:name="ohos.permission.LOCATION"/>  
+  <uses-permission android:name="ohos.permission.PUBLISH_AGENT_REMINDER"/>  
+  <uses-permission android:name="ohos.permission.CAMERA"/>  
+  <uses-permission android:name="ohos.permission.READ_MEDIA"/>  
+  <uses-permission android:name="ohos.permission.WRITE_USER_STORAGE"/>  
+  <uses-permission android:name="ohos.permission.INTERNET"/>  
+  <uses-permission android:name="ohos.permission.SET_NETWORK_INFO"/>  
+  <uses-permission android:name="ohos.permission.GET_NETWORK_INFO"/>  
+  <application android:usesCleartextTraffic="true" android:icon="@drawable/icon" android:directBootAware="false" android:allowBackup="false" android:label="@string/entry_MainAbility" android:name="com.example.distschedule.ShellMyApplication" android:persistent="false" android:debuggable="true"> 
+    <meta-data android:value="true" android:name="permZA"/>  
+    <meta-data android:value="androidhwext:style/Theme.Emui.NoTitleBar" android:name="hwc-theme"/> 
+  </application> 
+</manifest>

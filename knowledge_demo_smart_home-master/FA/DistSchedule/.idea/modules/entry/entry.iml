@@ -14,14 +14,6 @@
         <option name="BUILDABLE" value="false" />
       </configuration>
     </facet>
-    <facet type="ohos" name="Ohos">
-      <configuration>
-        <option name="configurationProperty" value="This is option under configuration" />
-        <option name="gradleProjectPath" value=":entry" />
-        <option name="moduleExternalName" value="entry" />
-        <option name="moduleName" value="entry" />
-      </configuration>
-    </facet>
     <facet type="harmony" name="harmony">
       <configuration>
         <option name="SELECTED_BUILD_VARIANT" value="debug" />
@@ -31,14 +23,22 @@
         <option name="OHOS_TEST_RESOURCES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../entry/src/ohosTest/resources;file://$MODULE_DIR$/../../../entry/src/debugOhosTest/resources" />
         <option name="MODULE_TYPE" value="entry" />
         <option name="DEBUGGABLE" value="true" />
-        <option name="HAP_OUTPUT_FOLDER_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\build\outputs\hap\debug" />
+        <option name="HAP_OUTPUT_FOLDER_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\build\outputs\hap\debug" />
         <option name="PREVIEW_EXECUTE_TASK_NAME" value="generateDebugJsManifest" />
-        <option name="JS_MANIFEST_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\build\intermediates\js\debug\jsManifest" />
-        <option name="SUPERVISUAL_SOURCE_DIR_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\src\main\supervisual" />
-        <option name="JS_SOURCE_DIR_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\src\main\js" />
-        <option name="ETS_SOURCE_DIR_PATH" value="C:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\src\main\ets" />
+        <option name="JS_MANIFEST_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\build\intermediates\js\debug\jsManifest" />
+        <option name="SUPERVISUAL_SOURCE_DIR_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\src\main\supervisual" />
+        <option name="JS_SOURCE_DIR_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\src\main\js" />
+        <option name="ETS_SOURCE_DIR_PATH" value="D:\Github\HarmonyOS_Study\knowledge_demo_smart_home-master\FA\DistSchedule\entry\src\main\ets" />
         <option name="MERGE_JS_SRC" value="false" />
         <option name="COMPILE_MODE_TYPE" value="d8" />
+      </configuration>
+    </facet>
+    <facet type="ohos" name="Ohos">
+      <configuration>
+        <option name="configurationProperty" value="This is option under configuration" />
+        <option name="gradleProjectPath" value=":entry" />
+        <option name="moduleExternalName" value="entry" />
+        <option name="moduleName" value="entry" />
       </configuration>
     </facet>
   </component>
@@ -47,6 +47,9 @@
     <output-test url="file://$MODULE_DIR$/../../../entry/build/intermediates/javac/debugTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../entry">
+      <sourceFolder url="file://$MODULE_DIR$/../../../entry/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../entry/build/generated/source/annotation/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../entry/build/intermediates/original_res/debug" type="java-resource" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../entry/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../entry/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../entry/.cxx" />
@@ -54,9 +57,10 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../entry/.preview" />
       <excludeFolder url="file://$MODULE_DIR$/../../../entry/build" />
     </content>
-    <orderEntry type="jdk" jdkName="SDK(API Version 6)" jdkType="SDK" />
+    <orderEntry type="jdk" jdkName="SDK(API Version 7)" jdkType="SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Gradle: ACProgressLite-1.0.0@har" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: agconnect-core-harmony-1.0.0.300@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ohosSwipeLayout-1.0.0@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ToggleButtonGroup-1.0.1@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ormlite-ohos-1.0.1@har" level="project" />

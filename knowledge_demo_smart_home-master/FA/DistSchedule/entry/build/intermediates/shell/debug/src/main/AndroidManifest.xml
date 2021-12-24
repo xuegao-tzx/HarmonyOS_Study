@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.xclgj.distschedule" android:versionCode="1000000" android:versionName="1.0.0">
+    
+  <uses-feature android:name="zidane.software.ability" android:required="false"/>
+    
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29"/>
+    
+  <uses-permission android:name="ohos.permission.GET_WIFI_INFO"/>
+    
+  <uses-permission android:name="ohos.permission.SET_WIFI_INFO"/>
+    
+  <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO"/>
+    
+  <uses-permission android:name="ohos.permission.LOCATION"/>
+    
+  <uses-permission android:name="ohos.permission.PUBLISH_AGENT_REMINDER"/>
+    
+  <uses-permission android:name="ohos.permission.CAMERA"/>
+    
+  <uses-permission android:name="ohos.permission.READ_MEDIA"/>
+    
+  <uses-permission android:name="ohos.permission.WRITE_USER_STORAGE"/>
+    
+  <uses-permission android:name="ohos.permission.INTERNET"/>
+    
+  <uses-permission android:name="ohos.permission.SET_NETWORK_INFO"/>
+    
+  <uses-permission android:name="ohos.permission.GET_NETWORK_INFO"/>
+    
+  <application android:usesCleartextTraffic="true" android:icon="@drawable/icon" android:directBootAware="false" android:allowBackup="false" android:label="@string/entry_MainAbility" android:name="com.example.distschedule.ShellMyApplication" android:persistent="false">
+        
+    <meta-data android:value="true" android:name="permZA"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_MainAbility" android:screenOrientation="portrait" android:name="com.example.distschedule.MainAbilityShellActivity" android:launchMode="standard"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_MainAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.LoginAbilityShellActivity" android:launchMode="standard">
+            
+      <intent-filter>
+                
+        <action android:name="android.intent.action.MAIN"/>
+                
+        <category android:name="android.intent.category.LAUNCHER"/>
+              
+      </intent-filter>
+          
+    </activity>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_AddDeviceAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.AddDeviceAbilityShellActivity" android:launchMode="standard">
+            
+      <intent-filter>
+                
+        <action android:name="action.alarm"/>
+              
+      </intent-filter>
+          
+    </activity>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_LampAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.DeviceControlAbilityShellActivity" android:launchMode="standard">
+            
+      <intent-filter>
+                
+        <action android:name="action.watering"/>
+                
+        <action android:name="action.sweepingRobot"/>
+                
+        <action android:name="action.curtain"/>
+                
+        <action android:name="action.fan"/>
+                
+        <action android:name="action.childrenWatch"/>
+                
+        <action android:name="action.trashCan"/>
+                
+        <action android:name="action.smokeDetector"/>
+                
+        <action android:name="action.formaldehyde"/>
+                
+        <action android:name="action.flammableGas"/>
+              
+      </intent-filter>
+          
+    </activity>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_UpdateDeviceNameAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.UpdateDeviceNameAbilityShellActivity" android:launchMode="standard"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_FamilyAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.FamilyAbilityShellActivity" android:launchMode="standard"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_ScheduleManageAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.ScheduleManageAbilityShellActivity" android:launchMode="standard">
+            
+      <intent-filter>
+                
+        <action android:name="action.selectDevice"/>
+                
+        <action android:name="action.selectMember"/>
+              
+      </intent-filter>
+          
+    </activity>
+        
+    <service android:icon="@drawable/icon" android:description="@string/serviceability_description" android:foregroundServiceType="dataSync|location" android:name="com.example.distschedule.ServiceAbilityShellService" android:exported="true"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_ScanAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.ScanAbilityShellActivity" android:launchMode="standard"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_ImageSelectorActivity" android:screenOrientation="unspecified" android:name="com.example.distschedule.ImageSelectorAbilityShellActivity" android:launchMode="standard"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_TakePhotoAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.TakePhotoAbilityShellActivity" android:launchMode="standard"/>
+        
+    <activity android:icon="@drawable/icon" android:label="@string/entry_LargeAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.LargeAbilityShellActivity" android:launchMode="standard"/>
+        
+    <service android:name="com.huawei.agconnect.core.ServiceDiscoveryShellService"/>
+        
+    <meta-data android:value="androidhwext:style/Theme.Emui.NoTitleBar" android:name="hwc-theme"/>
+      
+  </application>
+  
+</manifest>

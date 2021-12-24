@@ -2,9 +2,20 @@ apply plugin: 'com.huawei.ohos.hap'
 apply plugin: 'com.huawei.ohos.decctest'
 //For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
 ohos {
-    compileSdkVersion 6
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p12')
+            storePassword '00000018CA6EDB075A031E0B2E02144D07D5A46AB1C56145FCA4E85F54A4BA61031E98D05E25FA9D'
+            keyAlias = 'debugKey'
+            keyPassword '0000001860C8849238888298CABFB451AA9A1C2907834AA6B61DA79B24D03598E70A3FE9AAECB83D'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p7b')
+            certpath file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.cer')
+        }
+    }
+    compileSdkVersion 7
     defaultConfig {
-        compatibleSdkVersion 5
+        compatibleSdkVersion 6
     }
     buildTypes {
         release {
@@ -49,8 +60,10 @@ dependencies {
     annotationProcessor 'io.openharmony.tpc.thirdlib:eventbus-annotation-processor:1.0.1'
     // amqp
     implementation 'com.rabbitmq:amqp-client:5.12.0'
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
     implementation('com.gitee.chinasoft_ohos:ACProgressLite:1.0.0')
 }
 decc {
     supportType = ['html', 'xml']
 }
+apply plugin: 'com.huawei.agconnect'
