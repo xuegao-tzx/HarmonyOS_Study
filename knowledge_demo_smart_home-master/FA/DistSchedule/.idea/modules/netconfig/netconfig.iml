@@ -63,24 +63,6 @@
     <orderEntry type="library" exported="" name="Gradle: agconnect-core-harmony-1.0.0.300@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ailifeability-1.0.0.1@har" level="project" />
     <orderEntry type="module-library">
-      <library name="Gradle: ACE JS-phone-2.2.0.3" type="ACE">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/AppData/Local/Huawei/Sdk/js/2.2.0.3/api/phone" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: ACE JS-phone-2.2.0.3" type="ACE">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/AppData/Local/Huawei/Sdk/js/2.2.0.3/api/phone" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="Gradle: ACE JS-phone-3.0.0.0" type="ACE">
         <CLASSES />
         <JAVADOC />
