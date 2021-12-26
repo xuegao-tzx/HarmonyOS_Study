@@ -19,7 +19,7 @@ package com.example.distschedule.bean;
  * 用于记录儿童手表联系人数据类
  *
  * @since 2021-09-19
- */
+
 
 public class ChildrenWatchContacts {
 
@@ -68,3 +68,4 @@ public class ChildrenWatchContacts {
     }
 
 }
+*/

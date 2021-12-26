@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:tools="http://schemas.android.com/tools" package="com.example.distschedule" android:versionCode="1000000" android:versionName="1.0.0" android:isFeatureSplit="true" split="netconfig">
+<?xml version="1.0" encoding="UTF-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:tools="http://schemas.android.com/tools" package="com.xclgj.distschedule" android:versionCode="1000000" android:versionName="1.0.0" android:isFeatureSplit="true" split="netconfig">
     
   <uses-feature android:name="zidane.software.ability" android:required="false"/>
     

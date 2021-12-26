@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.distschedule.ResourceTable;
@@ -42,11 +42,11 @@ import org.greenrobot.eventbus.EventBus;
 
 import static com.example.distschedule.slice.SelectDeviceAbilitySlice.KEY_IS_SET_COMMAND;
 
-/**
+**
  * 扫地机器人
  *
  * @since 2021-08-28
- */
+ *//*
 public class SweepingRobotAbilitySlice extends AbilitySlice {
     private boolean isON = false;
     private String deviceId;
@@ -186,3 +186,4 @@ public class SweepingRobotAbilitySlice extends AbilitySlice {
         super.onForeground(intent);
     }
 }
+*/

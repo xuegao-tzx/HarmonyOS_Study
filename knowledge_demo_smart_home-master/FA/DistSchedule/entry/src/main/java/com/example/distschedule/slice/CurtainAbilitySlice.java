@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.distschedule.ResourceTable;
@@ -43,11 +43,11 @@ import org.greenrobot.eventbus.EventBus;
 
 import static com.example.distschedule.slice.SelectDeviceAbilitySlice.KEY_IS_SET_COMMAND;
 
-/**
+**
  * 智能窗帘
  *
  * @since 2021-08-28
- */
+ *
 public class CurtainAbilitySlice extends AbilitySlice {
     private boolean isON = false;
     private String deviceId;
@@ -56,8 +56,8 @@ public class CurtainAbilitySlice extends AbilitySlice {
     private Image curtainOpenImg;
     private Image curtainCloseImg;
     private boolean isSetCommand = false;
-
-
+*/
+/*
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
@@ -214,3 +214,4 @@ public class CurtainAbilitySlice extends AbilitySlice {
         super.onForeground(intent);
     }
 }
+*/

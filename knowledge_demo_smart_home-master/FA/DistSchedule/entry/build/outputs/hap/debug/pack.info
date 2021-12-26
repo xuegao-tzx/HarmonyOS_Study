@@ -61,9 +61,6 @@
                     {
                         "name": "com.example.distschedule.LargeAbility",
                         "label": "$string:entry_LargeAbility"
-                    },
-                    {
-                        "name": "com.huawei.agconnect.core.ServiceDiscovery"
                     }
                 ],
                 "distro": {
@@ -73,9 +70,9 @@
                     "moduleName": "entry"
                 },
                 "apiVersion": {
-                    "compatible": 6,
-                    "releaseType": "Beta1",
-                    "target": 7
+                    "compatible": 5,
+                    "releaseType": "Release",
+                    "target": 6
                 }
             }
         ]

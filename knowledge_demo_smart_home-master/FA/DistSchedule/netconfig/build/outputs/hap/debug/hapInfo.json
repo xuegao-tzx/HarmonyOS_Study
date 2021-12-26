@@ -1,6 +1,6 @@
 [
     {
-        "hapPath": "netconfig-entry-debug-rich-unsigned.hap",
+        "hapPath": "netconfig-entry-debug-rich-signed.hap",
         "device": "phone"
     }
 ]

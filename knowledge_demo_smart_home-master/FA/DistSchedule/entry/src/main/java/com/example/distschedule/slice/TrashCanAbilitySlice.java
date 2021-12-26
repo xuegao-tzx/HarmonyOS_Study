@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.example.distschedule.ResourceTable;
 import com.example.distschedule.bean.DeviceResult;
 import com.example.distschedule.bean.RespondBase;
@@ -33,11 +33,11 @@ import ohos.app.dispatcher.TaskDispatcher;
 import ohos.app.dispatcher.task.TaskPriority;
 import ohos.miscservices.timeutility.Time;
 
-/**
+**
  * 智能垃圾桶控制页面
  *
  * @since 2021-08-28
- */
+ *//*
 public class TrashCanAbilitySlice extends AbilitySlice {
     private boolean isAlertTrashCanON = false;
     private DirectionalLayout commonTrashCanControl;
@@ -156,3 +156,4 @@ public class TrashCanAbilitySlice extends AbilitySlice {
         super.onForeground(intent);
     }
 }
+*/

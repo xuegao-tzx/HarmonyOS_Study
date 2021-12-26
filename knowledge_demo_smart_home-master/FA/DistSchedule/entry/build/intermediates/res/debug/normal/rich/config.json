@@ -1,9 +1,9 @@
 {
     "app": {
         "apiVersion": {
-            "compatible": 6,
-            "releaseType": "Beta1",
-            "target": 7
+            "compatible": 5,
+            "releaseType": "Release",
+            "target": 6
         },
         "vendor": "example",
         "bundleName": "com.xclgj.distschedule",
@@ -23,10 +23,10 @@
     "module": {
         "abilities": [
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "portrait",
-                "descriptionId": 16777261,
-                "labelId": 16777238,
+                "descriptionId": 16777260,
+                "labelId": 16777237,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.MainAbility",
                 "description": "$string:mainability_description",
@@ -36,7 +36,7 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "skills": [
                     {
                         "entities": [
@@ -48,8 +48,8 @@
                     }
                 ],
                 "orientation": "unspecified",
-                "descriptionId": 16777260,
-                "labelId": 16777238,
+                "descriptionId": 16777259,
+                "labelId": 16777237,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.LoginAbility",
                 "description": "$string:loginability_description",
@@ -59,7 +59,7 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "skills": [
                     {
                         "actions": [
@@ -69,7 +69,7 @@
                 ],
                 "orientation": "unspecified",
                 "descriptionId": 16777220,
-                "labelId": 16777227,
+                "labelId": 16777226,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.AddDeviceAbility",
                 "description": "$string:adddeviceability_description",
@@ -79,7 +79,7 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "skills": [
                     {
                         "actions": [
@@ -96,8 +96,8 @@
                     }
                 ],
                 "orientation": "unspecified",
-                "descriptionId": 16777256,
-                "labelId": 16777235,
+                "descriptionId": 16777255,
+                "labelId": 16777234,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.DeviceControlAbility",
                 "description": "$string:lampability_description",
@@ -107,10 +107,10 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "unspecified",
-                "descriptionId": 16777276,
-                "labelId": 16777247,
+                "descriptionId": 16777274,
+                "labelId": 16777246,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.UpdateDeviceNameAbility",
                 "description": "$string:updateDeviceNameAbility_description",
@@ -120,10 +120,10 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "unspecified",
-                "descriptionId": 16777250,
-                "labelId": 16777230,
+                "descriptionId": 16777249,
+                "labelId": 16777229,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.FamilyAbility",
                 "description": "$string:familyability_description",
@@ -133,7 +133,7 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "skills": [
                     {
                         "actions": [
@@ -143,8 +143,8 @@
                     }
                 ],
                 "orientation": "unspecified",
-                "descriptionId": 16777268,
-                "labelId": 16777242,
+                "descriptionId": 16777267,
+                "labelId": 16777241,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.ScheduleManageAbility",
                 "description": "$string:schedulemanageability_description",
@@ -154,8 +154,8 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
-                "descriptionId": 16777269,
+                "iconId": 16777324,
+                "descriptionId": 16777268,
                 "visible": true,
                 "backgroundModes": [
                     "dataTransfer",
@@ -168,10 +168,10 @@
                 "homeAbility": false
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "unspecified",
-                "descriptionId": 16777266,
-                "labelId": 16777241,
+                "descriptionId": 16777265,
+                "labelId": 16777240,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.ScanAbility",
                 "description": "$string:scanability_description",
@@ -181,10 +181,10 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "unspecified",
-                "descriptionId": 16777255,
-                "labelId": 16777234,
+                "descriptionId": 16777254,
+                "labelId": 16777233,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.ImageSelectorAbility",
                 "description": "$string:imageselectoractivity_description",
@@ -194,10 +194,10 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "unspecified",
-                "descriptionId": 16777274,
-                "labelId": 16777245,
+                "descriptionId": 16777272,
+                "labelId": 16777244,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.TakePhotoAbility",
                 "description": "$string:takephotoability_description",
@@ -207,10 +207,10 @@
                 "launchType": "standard"
             },
             {
-                "iconId": 16777326,
+                "iconId": 16777324,
                 "orientation": "unspecified",
-                "descriptionId": 16777258,
-                "labelId": 16777236,
+                "descriptionId": 16777257,
+                "labelId": 16777235,
                 "icon": "$media:icon",
                 "name": "com.example.distschedule.LargeAbility",
                 "description": "$string:largeability_description",
@@ -218,11 +218,6 @@
                 "type": "page",
                 "homeAbility": false,
                 "launchType": "standard"
-            },
-            {
-                "name": "com.huawei.agconnect.core.ServiceDiscovery",
-                "type": "service",
-                "homeAbility": false
             }
         ],
         "deviceType": [

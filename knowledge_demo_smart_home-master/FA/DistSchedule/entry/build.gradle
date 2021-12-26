@@ -5,17 +5,17 @@ ohos {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p12')
-            storePassword '00000018CA6EDB075A031E0B2E02144D07D5A46AB1C56145FCA4E85F54A4BA61031E98D05E25FA9D'
+            storePassword '00000018B880754E983C4CD28B108870E8DE52656FF3399C8B22C7B3CF1585298B8E8D8AE0C4F3AD'
             keyAlias = 'debugKey'
-            keyPassword '0000001860C8849238888298CABFB451AA9A1C2907834AA6B61DA79B24D03598E70A3FE9AAECB83D'
+            keyPassword '00000018C5159E85F3CCDDD3BB8CC3D5CAEEF780E77B01DBF3ED972E24B9EA58D7812BF164FE520D'
             signAlg = 'SHA256withECDSA'
             profile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p7b')
             certpath file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.cer')
         }
     }
-    compileSdkVersion 7
+    compileSdkVersion 6
     defaultConfig {
-        compatibleSdkVersion 6
+        compatibleSdkVersion 5
     }
     buildTypes {
         release {
@@ -60,10 +60,8 @@ dependencies {
     annotationProcessor 'io.openharmony.tpc.thirdlib:eventbus-annotation-processor:1.0.1'
     // amqp
     implementation 'com.rabbitmq:amqp-client:5.12.0'
-    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
     implementation('com.gitee.chinasoft_ohos:ACProgressLite:1.0.0')
 }
 decc {
     supportType = ['html', 'xml']
 }
-apply plugin: 'com.huawei.agconnect'

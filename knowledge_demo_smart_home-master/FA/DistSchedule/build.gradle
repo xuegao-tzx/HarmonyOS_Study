@@ -6,9 +6,9 @@ ohos {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p12')
-            storePassword '00000018127A609AB1CC5587501F7C65D6E74760F090753988E6476905194127ECAF66040F69804C'
+            storePassword '00000018C71BA12CFC5EB10801C1BBDB085DCFD383FF3ACFFC3F95F13F1F53D5C7B6F6124F7586B0'
             keyAlias = 'debugKey'
-            keyPassword '000000181453BD0877EA0779DC959E5B19D177A1A918E0AB5E14BEC1BB26F17944ADEB10191A2EBD'
+            keyPassword '0000001896BD4FB37347EC262D9DA32428848A3252A5A308348568040DD6A5739D19AE8C4E4E39C0'
             signAlg = 'SHA256withECDSA'
             profile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p7b')
             certpath file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.cer')
@@ -35,7 +35,6 @@ buildscript {
     dependencies {
         classpath 'com.huawei.ohos:hap:3.0.3.4'
         classpath 'com.huawei.ohos:decctest:1.2.6.0'
-        classpath 'com.huawei.agconnect:agcp-harmony:1.0.0.300'
     }
 }
 

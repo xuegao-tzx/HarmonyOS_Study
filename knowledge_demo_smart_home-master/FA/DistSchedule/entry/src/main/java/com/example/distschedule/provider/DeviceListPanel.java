@@ -63,7 +63,7 @@ public class DeviceListPanel {
         boolean addType1 = false;
         boolean addType2 = false;
 
-        DeviceResult dr1 = new DeviceResult();
+        /*DeviceResult dr1 = new DeviceResult();
         dr1.setName("手表");
         dr1.setOwnerId("来自儿子的共享");
         dr1.setTypeId(1);
@@ -73,7 +73,7 @@ public class DeviceListPanel {
         dr1.setTypeId(2);
         List<DeviceResult> list = new ArrayList<DeviceResult>();
         list.add(dr1);
-        list.add(dr2);
+        list.add(dr2);*/
 
         for (DeviceResult dr : deviceList) {
 

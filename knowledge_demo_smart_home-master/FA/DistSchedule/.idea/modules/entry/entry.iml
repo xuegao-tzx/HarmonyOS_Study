@@ -57,10 +57,9 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../entry/.preview" />
       <excludeFolder url="file://$MODULE_DIR$/../../../entry/build" />
     </content>
-    <orderEntry type="jdk" jdkName="SDK(API Version 7)" jdkType="SDK" />
+    <orderEntry type="jdk" jdkName="SDK(API Version 6)" jdkType="SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Gradle: ACProgressLite-1.0.0@har" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: agconnect-core-harmony-1.0.0.300@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ohosSwipeLayout-1.0.0@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ToggleButtonGroup-1.0.1@har" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ormlite-ohos-1.0.1@har" level="project" />

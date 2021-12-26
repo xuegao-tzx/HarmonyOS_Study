@@ -17,6 +17,18 @@ public class MyEventBusIndex implements SubscriberInfoIndex {
     static {
         SUBSCRIBER_INDEX = new HashMap<Class<?>, SubscriberInfo>();
 
+        putIndex(new SimpleSubscriberInfo(com.example.distschedule.slice.SelectDeviceAbilitySlice.class, true,
+                new SubscriberMethodInfo[] {
+            new SubscriberMethodInfo("onShowMessageEvent", com.example.distschedule.event.MessageEvent.class,
+                    ThreadMode.MAIN),
+        }));
+
+        putIndex(new SimpleSubscriberInfo(com.example.distschedule.slice.MainAbilitySlice.class, true,
+                new SubscriberMethodInfo[] {
+            new SubscriberMethodInfo("onShowMessageEvent", com.example.distschedule.event.ChangeTabEvent.class,
+                    ThreadMode.MAIN),
+        }));
+
         putIndex(new SimpleSubscriberInfo(com.example.distschedule.slice.MyFamilyAbilitySlice.class, true,
                 new SubscriberMethodInfo[] {
             new SubscriberMethodInfo("onShowMessageEvent", com.example.distschedule.event.FamilyNameEvent.class,
@@ -30,18 +42,6 @@ public class MyEventBusIndex implements SubscriberInfoIndex {
         }));
 
         putIndex(new SimpleSubscriberInfo(com.example.distschedule.slice.AddScheduleAbilitySlice.class, true,
-                new SubscriberMethodInfo[] {
-            new SubscriberMethodInfo("onShowMessageEvent", com.example.distschedule.event.MessageEvent.class,
-                    ThreadMode.MAIN),
-        }));
-
-        putIndex(new SimpleSubscriberInfo(com.example.distschedule.slice.MainAbilitySlice.class, true,
-                new SubscriberMethodInfo[] {
-            new SubscriberMethodInfo("onShowMessageEvent", com.example.distschedule.event.ChangeTabEvent.class,
-                    ThreadMode.MAIN),
-        }));
-
-        putIndex(new SimpleSubscriberInfo(com.example.distschedule.slice.SelectDeviceAbilitySlice.class, true,
                 new SubscriberMethodInfo[] {
             new SubscriberMethodInfo("onShowMessageEvent", com.example.distschedule.event.MessageEvent.class,
                     ThreadMode.MAIN),

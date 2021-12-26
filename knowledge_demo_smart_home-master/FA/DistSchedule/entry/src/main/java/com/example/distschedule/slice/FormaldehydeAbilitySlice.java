@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.distschedule.ResourceTable;
@@ -38,11 +38,11 @@ import okhttp3.RequestBody;
 
 import java.util.Locale;
 
-/**
+**
  * 甲醛检测控制页面
  *
  * @since 2021-08-28
- */
+ *//*
 public class FormaldehydeAbilitySlice extends AbilitySlice {
     private boolean isFormaldehydeAlertON = false;
     private DirectionalLayout commonFormaldehydeControl;
@@ -206,3 +206,4 @@ public class FormaldehydeAbilitySlice extends AbilitySlice {
     }
 }
 
+*/

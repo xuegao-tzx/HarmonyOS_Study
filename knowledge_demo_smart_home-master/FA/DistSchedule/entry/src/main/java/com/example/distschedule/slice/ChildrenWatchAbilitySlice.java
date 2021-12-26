@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.distschedule.ResourceTable;
@@ -48,11 +48,11 @@ import java.util.Locale;
 
 import static com.example.distschedule.slice.SelectDeviceAbilitySlice.KEY_IS_SET_COMMAND;
 
-/**
+**
  * 智能儿童手表
  *
  * @since 2021-08-28
- */
+
 public class ChildrenWatchAbilitySlice extends AbilitySlice {
     private final List<ChildrenWatchContacts> contacts = new ArrayList<>();
     private String longitude; // 经度
@@ -405,4 +405,4 @@ public class ChildrenWatchAbilitySlice extends AbilitySlice {
     public void onForeground(Intent intent) {
         super.onForeground(intent);
     }
-}
+}*/

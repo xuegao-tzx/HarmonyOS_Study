@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: ACProgressLite-1.0.0@har">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4726fa0f03206c8b5d4676c613b88af4/ACProgressLite-1.0.0/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4726fa0f03206c8b5d4676c613b88af4/ACProgressLite-1.0.0/resources" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4726fa0f03206c8b5d4676c613b88af4/ACProgressLite-1.0.0/config.json" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/035e4ef83c19bd19ed3d48ef525daa39/ACProgressLite-1.0.0/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/035e4ef83c19bd19ed3d48ef525daa39/ACProgressLite-1.0.0/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/035e4ef83c19bd19ed3d48ef525daa39/ACProgressLite-1.0.0/config.json" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

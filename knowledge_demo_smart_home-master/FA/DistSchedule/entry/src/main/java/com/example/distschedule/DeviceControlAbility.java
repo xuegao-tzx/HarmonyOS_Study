@@ -20,7 +20,7 @@ import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 
 /**
- * 智能台灯控制页面
+ * 控制页面
  *
  * @since 2021-08-28
  */
@@ -39,15 +39,15 @@ public class DeviceControlAbility extends Ability {
     public void onStart(Intent intent) {
         super.onStart(intent);
         super.setMainRoute(LampAbilitySlice.class.getName()); // 智能台灯
-        addActionRoute(ACTION_WATERING, WateringAbilitySlice.class.getName()); // 护花使者
-        addActionRoute(ACTION_SWEEPING_ROBOT, SweepingRobotAbilitySlice.class.getName()); // 智能扫地机
-        addActionRoute(ACTION_CURTAIN, CurtainAbilitySlice.class.getName()); // 窗帘控制
-        addActionRoute(ACTION_FAN, FanAbilitySlice.class.getName()); // 智能风扇
-        addActionRoute(ACTION_CHILDREN_WATCH, ChildrenWatchAbilitySlice.class.getName()); // 智能儿童手表
+        //addActionRoute(ACTION_WATERING, WateringAbilitySlice.class.getName()); // 护花使者
+        //addActionRoute(ACTION_SWEEPING_ROBOT, SweepingRobotAbilitySlice.class.getName()); // 智能扫地机
+        //addActionRoute(ACTION_CURTAIN, CurtainAbilitySlice.class.getName()); // 窗帘控制
+        //addActionRoute(ACTION_FAN, FanAbilitySlice.class.getName()); // 智能风扇
+        //addActionRoute(ACTION_CHILDREN_WATCH, ChildrenWatchAbilitySlice.class.getName()); // 智能儿童手表
 
-        addActionRoute(ACTION_TRASHCAN, TrashCanAbilitySlice.class.getName()); // 智能垃圾桶
+        //addActionRoute(ACTION_TRASHCAN, TrashCanAbilitySlice.class.getName()); // 智能垃圾桶
         addActionRoute(ACTION_SMOKE_DETECTOR, SmokeDetectorAbilitySlice.class.getName()); // 烟感控制
-        addActionRoute(ACTION_FORMALDEHYDE, FormaldehydeAbilitySlice.class.getName()); // 甲醛检测
-        addActionRoute(ACTION_FLAMMABLE_GAS, FlammableGasAbilitySlice.class.getName()); // 可燃气体
+        //addActionRoute(ACTION_FORMALDEHYDE, FormaldehydeAbilitySlice.class.getName()); // 甲醛检测
+        //addActionRoute(ACTION_FLAMMABLE_GAS, FlammableGasAbilitySlice.class.getName()); // 可燃气体
     }
 }

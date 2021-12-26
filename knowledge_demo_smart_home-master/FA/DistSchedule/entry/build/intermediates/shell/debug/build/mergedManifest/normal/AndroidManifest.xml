@@ -106,8 +106,6 @@
         
     <activity android:icon="@drawable/icon" android:label="@string/entry_LargeAbility" android:screenOrientation="unspecified" android:name="com.example.distschedule.LargeAbilityShellActivity" android:launchMode="standard"/>
         
-    <service android:name="com.huawei.agconnect.core.ServiceDiscoveryShellService"/>
-        
     <meta-data android:value="androidhwext:style/Theme.Emui.NoTitleBar" android:name="hwc-theme"/>
       
   </application>

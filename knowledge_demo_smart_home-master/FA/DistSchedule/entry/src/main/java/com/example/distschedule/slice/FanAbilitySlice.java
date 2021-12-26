@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.distschedule.ResourceTable;
@@ -45,11 +45,11 @@ import java.util.Locale;
 
 import static com.example.distschedule.slice.SelectDeviceAbilitySlice.KEY_IS_SET_COMMAND;
 
-/**
+**
  * 智能风扇
  *
  * @since 2021-08-28
- */
+ **//*
 public class FanAbilitySlice extends AbilitySlice {
     private boolean isFanON = false;
     private Text timing;
@@ -63,7 +63,7 @@ public class FanAbilitySlice extends AbilitySlice {
 
     private String deviceId;
     private boolean isSetCommand = false;
-
+*//*
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
@@ -313,3 +313,4 @@ public class FanAbilitySlice extends AbilitySlice {
         super.onForeground(intent);
     }
 }
+*/

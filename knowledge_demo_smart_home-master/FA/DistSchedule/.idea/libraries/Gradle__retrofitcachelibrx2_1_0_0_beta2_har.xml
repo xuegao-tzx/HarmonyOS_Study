@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: retrofitcachelibrx2-1.0.0-beta2@har">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ad59a8d52c19b73d161badc0c8c3c17/retrofitcachelibrx2-1.0.0-beta2/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ad59a8d52c19b73d161badc0c8c3c17/retrofitcachelibrx2-1.0.0-beta2/resources" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ad59a8d52c19b73d161badc0c8c3c17/retrofitcachelibrx2-1.0.0-beta2/config.json" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3759ca61c2321747c80124187947b183/retrofitcachelibrx2-1.0.0-beta2/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3759ca61c2321747c80124187947b183/retrofitcachelibrx2-1.0.0-beta2/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3759ca61c2321747c80124187947b183/retrofitcachelibrx2-1.0.0-beta2/config.json" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -9,7 +9,7 @@
         "labelId": 50331651,
         "vendor": "example",
         "icon": "$media:icon_entry",
-        "bundleName": "com.example.distschedule",
+        "bundleName": "com.xclgj.distschedule",
         "label": "$string:entry_MainAbility_entry",
         "version": {
             "code": 1000000,

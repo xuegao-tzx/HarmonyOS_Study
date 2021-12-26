@@ -5,17 +5,17 @@ ohos {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p12')
-            storePassword '00000018E64E9B45AE2FAF71A0D565B1D3921DE5B9F6103DF31C341AF589B915A3BA94179CAD916A'
+            storePassword '000000180605A99DA2CF5170F665B094F9E2AF8C1A3BE80925E6B3C083D990CAF8966075607E17FF'
             keyAlias = 'debugKey'
-            keyPassword '0000001810573F9075E6B017A0C2BB6700DB06C019198DCF160693ADEB23FB64C8A2DCF9A7FFCED3'
+            keyPassword '00000018B78E3FB1A217C8972B1F348560BE6AC12EA207E7FDD9052E395F3259C0BE3388A4E2CEF8'
             signAlg = 'SHA256withECDSA'
             profile file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.p7b')
             certpath file('C:\\Users\\lenovo\\.ohos\\config\\auto_debug_distschedule_56657123.cer')
         }
     }
-    compileSdkVersion 7
+    compileSdkVersion 6
     defaultConfig {
-        compatibleSdkVersion 6
+        compatibleSdkVersion 5
     }
     buildTypes {
         release {
@@ -33,9 +33,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
     // hilink
     implementation(group: 'com.huawei.hilink', name: 'ailifeability', version: '1.0.0.1', ext: 'har')
-    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
 }
 decc {
     supportType = ['html', 'xml']
 }
-apply plugin: 'com.huawei.agconnect'

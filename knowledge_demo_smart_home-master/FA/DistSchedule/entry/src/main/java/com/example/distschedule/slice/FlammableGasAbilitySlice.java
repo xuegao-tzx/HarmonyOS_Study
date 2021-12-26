@@ -14,7 +14,7 @@
  */
 
 package com.example.distschedule.slice;
-
+/*
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.distschedule.ResourceTable;
@@ -37,12 +37,12 @@ import okhttp3.MediaType;
 import okhttp3.RequestBody;
 
 import java.util.Locale;
-
+*/
 /**
  * 可燃气体控制页面
  *
  * @since 2021-08-28
- */
+ *
 public class FlammableGasAbilitySlice extends AbilitySlice {
     private boolean isAlertFlammableGasON = false;
     private DirectionalLayout commonFlammableGasControl;
@@ -204,3 +204,4 @@ public class FlammableGasAbilitySlice extends AbilitySlice {
         super.onForeground(intent);
     }
 }
+*/

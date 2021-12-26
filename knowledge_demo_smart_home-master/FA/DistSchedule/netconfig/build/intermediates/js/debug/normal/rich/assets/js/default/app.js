@@ -81,26 +81,26 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/manifest-plugin.js!d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\build\\intermediates\\js\\debug\\jsManifest\\default\\manifest.json":
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** ./lib/manifest-plugin.js!d:/Github/HarmonyOS_Study/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/build/intermediates/js/debug/jsManifest/default/manifest.json ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ "./lib/manifest-plugin.js!d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\build\\intermediates\\js\\debug\\jsManifest\\default\\manifest.json":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./lib/manifest-plugin.js!d:/Github/HarmonyOS/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/build/intermediates/js/debug/jsManifest/default/manifest.json ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: appID, appName, versionName, versionCode, minPlatformVersion, pages, deviceType, window, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"appID\":\"com.example.distschedule\",\"appName\":\"$string:netconfig_MainAbility\",\"versionName\":\"1.0.0\",\"versionCode\":1000000,\"minPlatformVersion\":5,\"pages\":[\"pages/index/index\"],\"deviceType\":[\"phone\"],\"window\":{\"autoDesignWidth\":true,\"designWidth\":720}}");
+module.exports = JSON.parse("{\"appID\":\"com.xclgj.distschedule\",\"appName\":\"$string:netconfig_MainAbility\",\"versionName\":\"1.0.0\",\"versionCode\":1000000,\"minPlatformVersion\":5,\"pages\":[\"pages/index/index\"],\"deviceType\":[\"phone\"],\"window\":{\"autoDesignWidth\":true,\"designWidth\":720}}");
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js!d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:/Github/HarmonyOS_Study/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js!d:/Github/HarmonyOS_Study/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js!d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:/Github/HarmonyOS/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js!d:/Github/HarmonyOS/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -113,7 +113,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _faNetconfig = _interopRequireDefault(__webpack_require__(/*! ./common/fa-netconfig.js */ "d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\common\\fa-netconfig.js"));
+var _faNetconfig = _interopRequireDefault(__webpack_require__(/*! ./common/fa-netconfig.js */ "d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\common\\fa-netconfig.js"));
 
 var _default = {
   NetConfig: _faNetconfig["default"],
@@ -134,7 +134,7 @@ var _default = {
 };
 exports["default"] = _default;
 ;
-(exports["default"] || module.exports).manifest = __webpack_require__(/*! !./lib/manifest-plugin.js!../../../../build/intermediates/js/debug/jsManifest/default/manifest.json */ "./lib/manifest-plugin.js!d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\build\\intermediates\\js\\debug\\jsManifest\\default\\manifest.json");
+(exports["default"] || module.exports).manifest = __webpack_require__(/*! !./lib/manifest-plugin.js!../../../../build/intermediates/js/debug/jsManifest/default/manifest.json */ "./lib/manifest-plugin.js!d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\build\\intermediates\\js\\debug\\jsManifest\\default\\manifest.json");
 
 function requireModule(moduleName) {
   const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
@@ -294,14 +294,14 @@ function requireModule(moduleName) {
 
 /***/ }),
 
-/***/ "d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js?entry":
-/*!*****************************************************************************************************************************!*\
-  !*** d:/Github/HarmonyOS_Study/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js?entry ***!
-  \*****************************************************************************************************************************/
+/***/ "d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js?entry":
+/*!***********************************************************************************************************************!*\
+  !*** d:/Github/HarmonyOS/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js?entry ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:/Github/HarmonyOS_Study/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js!./app.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js!d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js")
+var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=C:/Users/lenovo/AppData/Local/Huawei/Sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:/Github/HarmonyOS/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/app.js!./app.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=C:\\Users\\lenovo\\AppData\\Local\\Huawei\\Sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js!d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\app.js")
 
       $app_define$('@app-application/app', [], function($app_require$, $app_exports$, $app_module$) {
       
@@ -315,10 +315,10 @@ var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel
 
 /***/ }),
 
-/***/ "d:\\Github\\HarmonyOS_Study\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\common\\fa-netconfig.js":
-/*!***************************************************************************************************************************************!*\
-  !*** d:/Github/HarmonyOS_Study/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/common/fa-netconfig.js ***!
-  \***************************************************************************************************************************************/
+/***/ "d:\\Github\\HarmonyOS\\knowledge_demo_smart_home-master\\FA\\DistSchedule\\netconfig\\src\\main\\js\\default\\common\\fa-netconfig.js":
+/*!*********************************************************************************************************************************!*\
+  !*** d:/Github/HarmonyOS/knowledge_demo_smart_home-master/FA/DistSchedule/netconfig/src/main/js/default/common/fa-netconfig.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

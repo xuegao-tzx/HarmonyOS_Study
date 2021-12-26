@@ -1,7 +1,7 @@
 {
     "summary": {
         "app": {
-            "bundleName": "com.example.distschedule",
+            "bundleName": "com.xclgj.distschedule",
             "version": {
                 "code": 1000000,
                 "name": "1.0.0"

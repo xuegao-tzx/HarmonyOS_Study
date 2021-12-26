@@ -1,9 +1,9 @@
 {
     "app": {
         "apiVersion": {
-            "compatible": 6,
-            "releaseType": "Beta1",
-            "target": 7
+            "compatible": 5,
+            "releaseType": "Release",
+            "target": 6
         },
         "vendor": "example",
         "bundleName": "com.xclgj.distschedule",
@@ -185,11 +185,6 @@
                 "label": "$string:entry_LargeAbility",
                 "type": "page",
                 "launchType": "standard",
-                "homeAbility": false
-            },
-            {
-                "name": "com.huawei.agconnect.core.ServiceDiscovery",
-                "type": "service",
                 "homeAbility": false
             }
         ],

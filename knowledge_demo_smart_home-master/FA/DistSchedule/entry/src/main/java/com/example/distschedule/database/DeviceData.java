@@ -39,7 +39,7 @@ public enum DeviceData {
         data.put("6128c7b60ad1ed0286680f19", new DeviceDataBean("", ResourceTable.Media_icon_fraction_lamp_online,
                 ResourceTable.Media_icon_fraction_lamp_offline,
                 command -> CommandUtil.parseLampCommand(command)));
-        // 扫地机器人
+        /* 扫地机器人
         data.put("61371e952cce4f0286262229", new DeviceDataBean(DeviceControlAbility.ACTION_SWEEPING_ROBOT,
                 ResourceTable.Media_icon_fraction_robot_online, ResourceTable.Media_icon_fraction_robot_offline,
                 command -> CommandUtil.parseRobotCleanCommand(command)));
@@ -51,10 +51,10 @@ public enum DeviceData {
         data.put("6136ceba0ad1ed02866fa3b2", new DeviceDataBean(DeviceControlAbility.ACTION_CURTAIN,
                 ResourceTable.Media_icon_fraction_curtain_online, ResourceTable.Media_icon_fraction_curtain_offline,
                 command -> CommandUtil.parseCurtainCommand(command)));
-        // 烟感
+        *///烟感
         data.put("6128bdd12cce4f02861e6d98", new DeviceDataBean(DeviceControlAbility.ACTION_SMOKE_DETECTOR,
                 ResourceTable.Media_icon_fraction_smoke_online, ResourceTable.Media_icon_fraction_smoke_offline, null));
-        // 可燃气体
+        /* 可燃气体
         data.put("61445c41f74139027d2233e5", new DeviceDataBean(DeviceControlAbility.ACTION_FLAMMABLE_GAS,
                 ResourceTable.Media_icon_fraction_gas_online, ResourceTable.Media_icon_fraction_gas_offline, null));
         // 甲醛检测
@@ -66,7 +66,7 @@ public enum DeviceData {
         // 儿童手表
         data.put("613ad28b0109930287315230", new DeviceDataBean(DeviceControlAbility.ACTION_CHILDREN_WATCH,
                 ResourceTable.Media_icon_fraction_watch_online, ResourceTable.Media_icon_fraction_watch_offline, null));
-        // 电风扇
+        */// 电风扇
         data.put("6150601d88056b027dd2ca47", new DeviceDataBean(DeviceControlAbility.ACTION_FAN,
                 ResourceTable.Media_icon_fraction_fan_online, ResourceTable.Media_icon_fraction_fan_offline,
                 command -> CommandUtil.parseFanCommand(command)));

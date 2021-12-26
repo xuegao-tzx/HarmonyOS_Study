@@ -1,6 +1,6 @@
 {
     "app": {
-        "bundleName": "com.example.distschedule",
+        "bundleName": "com.xclgj.distschedule",
         "vendor": "example",
         "apiVersion": {
             "compatible": 5,
