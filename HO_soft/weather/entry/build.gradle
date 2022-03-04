@@ -6,7 +6,6 @@ ohos {
     defaultConfig {
         compatibleSdkVersion 6
     }
-    showInServiceCenter true
     buildTypes {
         release {
             proguardOpt {
@@ -24,7 +23,7 @@ dependencies {
     ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.200'
 }
 decc {
-    supportType = ['html','xml']
+    supportType = ['html', 'xml']
 }
 buildscript {
     repositories {
@@ -34,11 +33,11 @@ buildscript {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.huawei.ohos:hap:3.0.3.2'
-        classpath 'com.huawei.ohos:decctest:1.2.6.0'
+        classpath 'com.huawei.ohos:decctest:1.2.7.2'
     }
 }
 
@@ -50,6 +49,6 @@ allprojects {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-        jcenter()
+        mavenCentral()
     }
 }

@@ -1,5 +1,6 @@
 package com.example.weather.net;
 
+import com.example.weather.util.HiExecutor;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
 import ohos.net.NetHandle;
@@ -7,7 +8,6 @@ import ohos.net.NetManager;
 import org.devio.hi.json.HiJson;
 import org.devio.hi.json.JSONException;
 import org.devio.hi.json.JSONObject;
-import com.example.weather.util.HiExecutor;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -17,11 +17,17 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Map;
 
-public class HiNet implements IHiNet{
+/**
+ * The type Hi net.
+ */
+public class HiNet implements IHiNet {
     private NetManager netManager;
-    private HiLogLabel logLabel = new HiLogLabel(0,0, HiNet.class.getSimpleName());
+    private HiLogLabel logLabel = new HiLogLabel(0, 0, HiNet.class.getSimpleName());
 
-    public HiNet(){
+    /**
+     * Instantiates a new Hi net.
+     */
+    public HiNet() {
         netManager = NetManager.getInstance(null);
     }
 
@@ -45,25 +51,25 @@ public class HiNet implements IHiNet{
         try {
             URL url = new URL(finalUrl);
             URLConnection urlConnection = netHandle.openConnection(url, Proxy.NO_PROXY);
-            if (urlConnection instanceof  HttpURLConnection){
-                connection = (HttpURLConnection)urlConnection;
+            if (urlConnection instanceof HttpURLConnection) {
+                connection = (HttpURLConnection) urlConnection;
             }
             connection.setRequestMethod("GET");
             connection.connect();
             HiLog.debug(logLabel, "connect...");
-            if (connection.getResponseCode() == 200){
+            if (connection.getResponseCode() == 200) {
                 inputStream = connection.getInputStream();
                 baos = new ByteArrayOutputStream();
                 int readLen;
                 byte[] bytes = new byte[1024];
-                while((readLen = inputStream.read(bytes)) != -1){
+                while ((readLen = inputStream.read(bytes)) != -1) {
                     baos.write(bytes, 0, readLen);
                 }
                 String result = baos.toString();
                 HiExecutor.runUI(new Runnable() {
                     @Override
                     public void run() {
-                        try{
+                        try {
                             HiJson res = new HiJson(new JSONObject(result));
                             listener.onSuccess(res);
                             HiLog.debug(logLabel, "success.");
@@ -77,11 +83,11 @@ public class HiNet implements IHiNet{
                 HiLog.debug(logLabel, "Request fail, code:" + connection.getResponseCode());
                 listener.onFail("Request fail, code:" + connection.getResponseCode());
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             HiLog.debug(logLabel, "Request fail, msg:" + e.toString());
             listener.onFail("Request fail, msg:" + e.toString());
         } finally {
-            if (connection != null){
+            if (connection != null) {
                 connection.disconnect();
             }
             HiNetUtil.close(inputStream);

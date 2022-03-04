@@ -1,7 +1,7 @@
 {
   "app": {
     "bundleName": "com.example.test.weather",
-    "vendor": "example",
+    "vendor": "xcl",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -14,8 +14,7 @@
     "mainAbility": "com.example.weather.MainAbility",
     "deviceType": [
       "phone",
-      "tablet",
-      "wearable"
+      "tablet"
     ],
     "reqPermissions": [
       {
@@ -54,22 +53,6 @@
         "formsEnabled": true,
         "label": "$string:entry_MainAbility",
         "type": "page",
-        "forms": [
-          {
-            "isDefault": true,
-            "scheduledUpdateTime": "10:30",
-            "defaultDimension": "2*2",
-            "name": "widget",
-            "description": "This is a service widget",
-            "colorMode": "auto",
-            "type": "JS",
-            "supportDimensions": [
-              "2*2"
-            ],
-            "updateEnabled": true,
-            "updateDuration": 1
-          }
-        ],
         "launchType": "standard"
       }
     ]
