@@ -13,7 +13,7 @@
     <description>数据库dao层，负责和数据库的交互, 该模块中的所有代码均通过mybatis-generator自动生成</description>
 
     <properties>
-        <mysql-connector>8.0.18</mysql-connector>
+        <mysql-connector>8.0.28</mysql-connector>
         <alibaba.druid>1.1.21</alibaba.druid>
         <mybatis-spring-boot>1.3.2</mybatis-spring-boot>
         <mybatis.generator.plugin.version>1.3.8</mybatis.generator.plugin.version>
